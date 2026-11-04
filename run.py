@@ -19,7 +19,7 @@ import yaml
 from tracker.match import Matcher
 from tracker.notify import push, sheet_append
 from tracker.report import render
-from tracker.sources import FETCHERS, SourceError
+from tracker.sources import FETCHERS, SourceError, describe
 
 ROOT = Path(__file__).parent
 STATE_FILE = ROOT / "data" / "state.json"
@@ -48,13 +48,38 @@ def dashboard_url():
     return f"https://github.com/{repo}/blob/{branch}/JOBS.md" if repo else None
 
 
-def fetch(src, terms):
+def fetch(src, terms, matcher, known):
+    """Fetch one source, classify each posting, and check your class year can apply.
+
+    Returns (src, [(job, priority, fit)], error). A posting's description is only
+    downloaded when its title can't settle the class-year question and it isn't
+    already in `known` (results from earlier runs).
+    """
     try:
-        return src, FETCHERS[src["type"]](src, terms), None
+        found = FETCHERS[src["type"]](src, terms)
     except SourceError as e:
         return src, None, str(e)
     except Exception as e:  # a bug or unexpected format; report it as a source failure
         return src, None, f"{type(e).__name__}: {e}"[:200]
+    out = []
+    for job in found:
+        prio = matcher.classify(job, src.get("kind", "bank"))
+        fit = None
+        if prio is not None:
+            verdict = matcher.fit(job)
+            if verdict:
+                fit = {"ok": verdict[0], "why": verdict[1], "cache": False}
+            elif job.key in known:
+                fit = {**known[job.key], "cache": True}
+            else:
+                try:
+                    ok, why = matcher.fit(job, describe(src, job))
+                    fit = {"ok": ok, "why": why, "cache": True}
+                except Exception:  # couldn't read the description; decide from the title, retry next run
+                    ok, why = matcher.fit(job, "")
+                    fit = {"ok": ok, "why": why, "cache": False}
+        out.append((job, prio, fit))
+    return src, out, None
 
 
 def main():
@@ -74,10 +99,14 @@ def main():
     firms = load_yaml("firms.yaml")
     sources = firms["sources"]
     matcher = Matcher(filters)
-    terms = list(dict.fromkeys(filters["search_terms"] + [str(y) for y in filters["target_years"]]))
+    terms = list(dict.fromkeys(filters["search_terms"] + sorted(matcher.years)))
 
     state = load_state()
     before = json.dumps(state, sort_keys=True)
+    known = state.setdefault("fit", {})  # job key -> {"ok", "why", "source"}: class-year checks already done
+    if state.get("fit_grad") != matcher.grad:  # graduation year changed: re-check everything
+        known.clear()
+        state["fit_grad"] = matcher.grad
     now_dt = datetime.now(timezone.utc)
     now = now_dt.isoformat(timespec="seconds")
     names = {s["name"] for s in sources}
@@ -91,7 +120,7 @@ def main():
     failing_alerts, recoveries = [], []
 
     with cf.ThreadPoolExecutor(max_workers=16) as ex:
-        results = list(ex.map(lambda s: fetch(s, terms), todo))
+        results = list(ex.map(lambda s: fetch(s, terms, matcher, dict(known)), todo))
 
     for src, found, err in results:
         name = src["name"]
@@ -108,11 +137,14 @@ def main():
         if h.get("alerted"):
             recoveries.append(name)
         h.update(failures=0, alerted=False, error="")
-        kind = src.get("kind", "bank")
-        current, seeded_now = set(), []
-        for job in found:
-            prio = matcher.classify(job, kind)
+        current, fetched, seeded_now = set(), set(), []
+        for job, prio, fit in found:
+            fetched.add(job.key)
             if prio is None:
+                continue
+            if fit["cache"]:
+                known[job.key] = {"ok": fit["ok"], "why": fit["why"], "source": name}
+            if not fit["ok"]:
                 continue
             current.add(job.key)
             rec = state["jobs"].get(job.key)
@@ -124,10 +156,14 @@ def main():
                 # An already-open posting now matches your filters more strongly (e.g. you added keywords)
                 new_by_prio[prio].append(rec)
             rec.update(title=job.title, url=job.url, location=job.location, posted=job.posted,
-                       priority=prio, open=True, closed=None)
-        for key, rec in state["jobs"].items():
-            if rec["source"] == name and rec["open"] and key not in current:
-                rec["open"], rec["closed"] = False, now
+                       priority=prio, fit=fit["why"], open=True, closed=None)
+        for key in [k for k, r in state["jobs"].items() if r["source"] == name and k not in current]:
+            if key in fetched:
+                del state["jobs"][key]  # still posted, but no longer matches your filters or class year
+            elif state["jobs"][key]["open"]:
+                state["jobs"][key].update(open=False, closed=now)
+        for key in [k for k, v in known.items() if v["source"] == name and k not in fetched]:
+            del known[key]  # posting is gone; forget its class-year check
         if not h["seeded"]:
             h["seeded"] = True
             newly_seeded.append((name, seeded_now))

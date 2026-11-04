@@ -84,6 +84,13 @@ through, just rely on Handshake's app notifications.
 | Low | IB, tech, ops, risk, HR, recruiting events at watched firms | Dashboard only |
 | Ignored | Not an internship, MBA / PhD / Masters level, wrong year, outside the US | Nothing |
 
+**Class year filter.** `graduation_year: 2029` in `filters.yaml` means you're a sophomore now. The tracker shows
+every **summer 2028** internship (after junior year), but **summer 2027** internships only if the posting says
+sophomores, rising juniors or the class of 2029 can apply. To check, it reads each posting's description
+(once; the result is saved). Undated postings are kept unless they name a different class year. The dashboard's
+**Who can apply** column shows why each posting made the cut. Jefferies and Evercore postings are judged on
+their title only, because their detail pages have a bot check.
+
 Other pushes:
 - **"Tracker can't check X"**: a firm's site failed 3 runs in a row (about 90 minutes). Check that firm by hand until you get **"X is back"**.
 - **Weekly check-in**: counts for the week plus any failing sources.

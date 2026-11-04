@@ -1,10 +1,14 @@
 # What counts as a match. All phrases are case-insensitive whole words/phrases.
 
-# Summers you're recruiting for. Postings that name a different year are ignored.
-# Postings with no year in the title are kept.
-target_years: [2027, 2028]
+# Your graduation year (you're a sophomore now, class of 2029). The tracker then shows:
+#   - every summer 2028 internship (after your junior year)
+#   - summer 2027 internships (after sophomore year) ONLY if the posting says sophomores /
+#     the class of 2029 can apply. It reads each posting's description to check.
+#   - undated internships, unless they're limited to other class years
+# Postings for any other summer are ignored.
+graduation_year: 2029
 
-# Search terms sent to each careers site. The target years above are added automatically.
+# Search terms sent to each careers site. Your two summer years (2027, 2028) are added automatically.
 search_terms: [internship, summer]
 
 # A posting must contain one of these to count as an internship at all.
