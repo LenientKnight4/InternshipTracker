@@ -1,0 +1,367 @@
+# What counts as a match. All phrases are case-insensitive whole words/phrases.
+
+# Summers you're recruiting for. Postings that name a different year are ignored.
+# Postings with no year in the title are kept.
+target_years: [2027, 2028]
+
+# Search terms sent to each careers site. The target years above are added automatically.
+search_terms: [internship, summer]
+
+# A posting must contain one of these to count as an internship at all.
+# ("intern" is matched as a whole word, so "Internal Audit" doesn't count.)
+early_career:
+  - intern
+  - interns
+  - internship
+  - internships
+  - summer analyst
+  - summer analysts
+  - summer program
+  - summer programme
+  - summer internship
+  - co-op
+  - early insight
+  - early insights
+  - insight program
+  - insight programme
+  - sophomore
+  - freshman
+  - first-year
+
+# Never shown: wrong level for an undergrad.
+exclude:
+  - mba
+  - pre-mba
+  - summer associate
+  - summer associates
+  - phd
+  - ph.d
+  - ms/phd
+  - doctoral
+  - postdoc
+  - full-time
+  - full time
+  - vice president
+  - executive director
+  - managing director
+  - experienced
+  - jd
+  - law student
+  - masters
+  - master's
+  - graduate programme
+  - apprenticeship
+  - apprenticeship programme
+
+# Shown on the dashboard only (no push): recruiting events rather than applications.
+events:
+  - info session
+  - information session
+  - coffee chat
+  - coffee chats
+  - open house
+  - roadshow
+  - webinar
+  - networking
+  - event
+  - intro to
+  - office hours
+  - meet the
+  - spotlight
+
+# Top priority even if a "soft" off-target word appears (e.g. "Technology Equity Research").
+strong_focus:
+  - asset management
+  - asset & wealth
+  - asset and wealth
+  - investment management
+  - equity research
+  - equities research
+  - investment research
+  - global research
+  - research analyst
+  - sector analyst
+  - investment analyst
+  - portfolio management
+  - portfolio manager
+  - multi-asset
+  - fundamental equity
+  - public equities
+  - credit research
+  - securities research
+  - private credit
+
+# Top priority unless an off-target word also appears.
+focus:
+  - research
+  - researcher
+  - investment
+  - investments
+  - investing
+  - investment strategy
+  - investment solutions
+  - investment team
+  - portfolio
+  - equity
+  - equities
+  - fixed income
+  - credit
+  - awm
+  - fund
+  - funds
+  - stewardship
+  - public markets
+  - hedge fund
+  - asset allocation
+  - stock
+  - buy-side
+
+# Medium priority (grouped push): related but not core AM / ER.
+related:
+  - wealth
+  - wealth management
+  - private wealth
+  - private bank
+  - private banking
+  - wealth planning
+
+# Always low priority: clearly not an investing role.
+off_target_hard:
+  - software
+  - engineer
+  - engineering
+  - developer
+  - data scientist
+  - data engineer
+  - cyber
+  - cybersecurity
+  - human resources
+  - hr
+  - legal
+  - compliance
+  - audit
+  - payroll
+  - facilities
+  - graphic design
+  - public relations
+  - conference services
+  - business coordinator
+  - procurement
+
+# Low priority unless a strong_focus phrase also appears.
+off_target_soft:
+  - technology
+  - operations
+  - risk
+  - finance
+  - accounting
+  - tax
+  - treasury
+  - controllers
+  - marketing
+  - communications
+  - sales
+  - trading
+  - sales & trading
+  - global markets
+  - capital markets
+  - investment banking
+  - corporate banking
+  - commercial banking
+  - global banking
+  - real estate banking
+  - m&a
+  - mergers
+  - restructuring
+  - client service
+  - client services
+  - client management
+  - product management
+  - project management
+  - program management
+  - automation
+  - data
+  - analytics
+  - infrastructure
+  - systems
+  - application development
+  - machine learning
+  - ai
+  - artificial intelligence
+  - quantitative
+  - quant
+  - strats
+  - office of the coo
+  - office of the cfo
+  - chief operating office
+
+# Postings located only in these places are ignored (the tracker is US-focused).
+# If a posting lists a US location too, it's kept.
+non_us_locations:
+  - london
+  - united kingdom
+  - uk
+  - edinburgh
+  - glasgow
+  - belfast
+  - dublin
+  - ireland
+  - luxembourg
+  - paris
+  - france
+  - frankfurt
+  - germany
+  - munich
+  - zurich
+  - geneva
+  - switzerland
+  - milan
+  - italy
+  - madrid
+  - spain
+  - lisbon
+  - amsterdam
+  - netherlands
+  - brussels
+  - vienna
+  - stockholm
+  - copenhagen
+  - oslo
+  - helsinki
+  - warsaw
+  - wroclaw
+  - krakow
+  - poznan
+  - poland
+  - budapest
+  - hungary
+  - prague
+  - bucharest
+  - sofia
+  - athens
+  - istanbul
+  - tel aviv
+  - dubai
+  - abu dhabi
+  - riyadh
+  - doha
+  - hong kong
+  - singapore
+  - tokyo
+  - japan
+  - seoul
+  - korea
+  - shanghai
+  - beijing
+  - shenzhen
+  - china
+  - taiwan
+  - taipei
+  - sydney
+  - melbourne
+  - australia
+  - mumbai
+  - bengaluru
+  - bangalore
+  - hyderabad
+  - pune
+  - chennai
+  - gurgaon
+  - gurugram
+  - india
+  - manila
+  - philippines
+  - kuala lumpur
+  - malaysia
+  - bangkok
+  - jakarta
+  - toronto
+  - montreal
+  - vancouver
+  - calgary
+  - canada
+  - sao paulo
+  - brazil
+  - mexico city
+  - buenos aires
+  - santiago
+  - bogota
+  - johannesburg
+  - south africa
+  - apac
+  - emea
+  - asia
+  - manchester
+  - knutsford
+  - northampton
+  - birmingham
+  - bristol
+  - leeds
+  - cardiff
+  - monaco
+  - jersey
+  - guernsey
+  - isle of man
+  - milano
+  - roma
+  - warszawa
+  - praha
+  - wien
+  - sweden
+  - denmark
+  - norway
+  - finland
+  - israel
+  - uae
+  - saudi
+  - qatar
+  - indonesia
+  - thailand
+  - vietnam
+  - winnipeg
+  - ottawa
+  - mississauga
+  - edmonton
+  - quebec
+  - colombia
+  - argentina
+  - chile
+  - peru
+  - monterrey
+  - guadalajara
+  - f/m/x
+  - m/f/d
+  - m/w/d
+
+# Phrases that mean a posting is in the US (a ", NY"-style state code also counts).
+us_markers:
+  - united states
+  - usa
+  - u.s.
+  - us
+  - new york
+  - nyc
+  - new jersey
+  - boston
+  - chicago
+  - san francisco
+  - los angeles
+  - baltimore
+  - philadelphia
+  - charlotte
+  - dallas
+  - houston
+  - atlanta
+  - denver
+  - seattle
+  - miami
+  - minneapolis
+  - milwaukee
+  - pittsburgh
+  - jersey city
+  - newport beach
+  - salt lake city
+  - stamford
+  - greenwich
+  - menlo park
+  - washington
