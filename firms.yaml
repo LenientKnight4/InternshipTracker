@@ -1,7 +1,9 @@
 # Every firm the tracker checks. Endpoints were verified on 2026-11-04.
 #
-# kind: am   = asset manager / buy-side. Any investing-side internship there is pushed.
-# kind: bank = only AM / ER / research / wealth internships are pushed.
+# kind: credit = credit specialist. Any internship there that isn't tech/ops/HR etc. is an instant push.
+# kind: am     = asset manager / buy-side. AM/ER/credit internships are instant pushes,
+#                other business internships there are a grouped push.
+# kind: bank   = only AM / ER / credit / research / wealth internships are pushed.
 #
 # To add a firm, click "Apply" on any of its jobs and look at the URL:
 #   <tenant>.wd<N>.myworkdayjobs.com/<site>/...      -> type: workday
@@ -10,6 +12,7 @@
 #   jobs.ashbyhq.com/<board>/...                      -> type: ashby
 #   <host>/hcmUI/CandidateExperience/en/sites/<site>  -> type: oracle
 #   <host>.tal.net/...                                -> type: oleeo (paste the job board URL)
+#   careers-<name>.icims.com/...                      -> type: icims, base: https://careers-<name>.icims.com
 #   anything else                                     -> type: page (watches the page for new internship text)
 
 sources:
@@ -52,6 +55,7 @@ sources:
   - {name: William Blair, kind: bank, type: greenhouse, board: williamblair}
   - {name: Baird, kind: bank, type: workday, tenant: baird, wd: 1, site: Careers}
   - {name: Raymond James, kind: bank, type: workday, tenant: raymondjames, wd: 1, site: RaymondJamesCareers}
+  - {name: Stifel, kind: bank, type: icims, base: "https://careers-stifel.icims.com"}
   - {name: Truist, kind: bank, type: workday, tenant: truist, wd: 1, site: Careers}
   - {name: Morningstar, kind: am, type: workday, tenant: morningstar, wd: 5, site: Americas}
 
@@ -79,7 +83,32 @@ sources:
   - {name: Millennium, kind: am, type: eightfold, host: mlp.eightfold.ai, domain: mlp.com}
   - {name: Schonfeld, kind: am, type: greenhouse, board: schonfeld}
   - {name: Blackstone, kind: am, type: workday, tenant: blackstone, wd: 1, site: Blackstone_Careers}
+  - {name: Blackstone (campus), kind: am, type: workday, tenant: blackstone, wd: 1, site: Blackstone_Campus_Careers}
   - {name: Apollo, kind: am, type: workday, tenant: athene, wd: 5, site: Apollo_Careers}
+  - {name: Carlyle, kind: am, type: workday, tenant: carlyle, wd: 1, site: carlyle}
+  - {name: Bain Capital, kind: am, type: workday, tenant: baincapital, wd: 1, site: External_Public}
+  - {name: TPG / Angelo Gordon, kind: am, type: greenhouse, board: tpgcareers}
+  - {name: Brookfield, kind: am, type: workday, tenant: brookfield, wd: 5, site: brookfield}
+  - {name: Hamilton Lane, kind: am, type: workday, tenant: hamiltonlane, wd: 108, site: search}
+
+  # --- Public & private credit ----------------------------------------------
+  - {name: Ares, kind: credit, type: workday, tenant: aresmgmt, wd: 1, site: External}
+  - {name: Blue Owl, kind: credit, type: workday, tenant: blueowl, wd: 1, site: blueowl}
+  - {name: Oaktree, kind: credit, type: workday, tenant: oaktree, wd: 1, site: Oaktree}
+  - {name: Sixth Street, kind: credit, type: workday, tenant: sixthstreet, wd: 1, site: sixthstreetcareers}
+  - {name: HPS, kind: credit, type: greenhouse, board: hpsinvestmentpartners}
+  - {name: OHA (Oak Hill Advisors), kind: credit, type: greenhouse, board: oakhilladvisors}
+  - {name: Antares, kind: credit, type: workday, tenant: antares, wd: 5, site: antares}
+  - {name: Fortress, kind: credit, type: workday, tenant: fortress, wd: 503, site: Careers}
+  - {name: Cerberus, kind: credit, type: workday, tenant: cerberus, wd: 1, site: CerberusCareers}
+  - {name: Audax (Private Debt), kind: credit, type: greenhouse, board: audaxgroup}
+  - {name: Marathon Asset Management, kind: credit, type: icims, base: "https://careers-marathonfund.icims.com"}
+  - {name: TCW, kind: credit, type: icims, base: "https://careers-tcw.icims.com"}
+  - {name: Barings, kind: am, type: workday, tenant: barings, wd: 1, site: Barings}
+  - {name: PGIM, kind: am, type: workday, tenant: pru, wd: 5, site: Careers}
+  - {name: Guggenheim, kind: am, type: workday, tenant: guggenheim, wd: 1, site: Guggenheim_Partners}
+  - {name: First Eagle, kind: am, type: workday, tenant: fei, wd: 5, site: External}
+  - {name: Voya, kind: bank, type: workday, tenant: godirect, wd: 5, site: voya_jobs}
 
 # Firms that block automated checks or have no findable feed. Listed on the
 # dashboard so you remember to join their mailing lists / check them by hand.
@@ -94,6 +123,17 @@ manual:
   - {name: Bernstein, url: "https://www.bernsteinsg.com/"}
   - {name: Wolfe Research, url: "https://www.wolferesearch.com/careers/"}
   - {name: Balyasny, url: "https://www.bamfunds.com/careers"}
-  - {name: Stifel, url: "https://careers-stifel.icims.com/jobs/search", note: "iCIMS site"}
-  - {name: Loomis Sayles, url: "https://www.loomissayles.com/careers/"}
+  - {name: Loomis Sayles, url: "https://www.loomissayles.com/careers/", note: "public credit / fixed income"}
+  - {name: KKR, url: "https://www.kkr.com/careers", note: "credit + PE; no public feed found"}
+  - {name: Golub Capital, url: "https://golubcapital.com/careers/", note: "private credit"}
+  - {name: Crescent Capital, url: "https://www.crescentcap.com/careers", note: "private credit; Dayforce site"}
+  - {name: Monroe Capital, url: "https://www.monroecap.com/careers/", note: "private credit; Paylocity site"}
+  - {name: Davidson Kempner, url: "https://www.davidsonkempner.com/careers", note: "credit / distressed"}
+  - {name: Värde, url: "https://www.varde.com/careers", note: "credit / distressed; Taleo site"}
+  - {name: DoubleLine, url: "https://doubleline.com/careers/", note: "public credit / fixed income"}
+  - {name: Silver Point, url: "https://www.silverpointcapital.com/careers", note: "credit"}
+  - {name: Brigade, url: "https://www.brigadecapital.com/careers", note: "public credit / high yield"}
+  - {name: Canyon Partners, url: "https://www.canyonpartners.com/careers", note: "credit"}
+  - {name: Kayne Anderson, url: "https://kaynecapital.com/careers/", note: "private credit; blocks bots"}
+  - {name: Payden & Rygel, url: "https://www.payden.com/careers.aspx", note: "fixed income"}
   - {name: Handshake, url: "https://app.joinhandshake.com/", note: "use saved-search alerts; see README"}

@@ -87,9 +87,41 @@ strong_focus:
   - multi-asset
   - fundamental equity
   - public equities
-  - credit research
   - securities research
+  # Public and private credit
+  - public credit
   - private credit
+  - credit research
+  - credit analyst
+  - credit investing
+  - credit investment
+  - credit investments
+  - credit strategies
+  - credit opportunities
+  - credit fund
+  - liquid credit
+  - alternative credit
+  - opportunistic credit
+  - structured credit
+  - direct lending
+  - private debt
+  - leveraged finance
+  - leveraged loans
+  - high yield
+  - distressed
+  - distressed debt
+  - special situations
+  - asset-based finance
+  - asset based finance
+  - specialty finance
+  - capital solutions
+  - mezzanine
+  - clo
+  - real estate debt
+  - infrastructure debt
+  - investment grade
+  - securitized
+  - fixed income research
 
 # Top priority unless an off-target word also appears.
 focus:
@@ -106,6 +138,10 @@ focus:
   - equities
   - fixed income
   - credit
+  - debt
+  - lending
+  - loans
+  - bonds
   - awm
   - fund
   - funds
@@ -116,7 +152,7 @@ focus:
   - stock
   - buy-side
 
-# Medium priority (grouped push): related but not core AM / ER.
+# Medium priority (grouped push): related but not core AM / ER / credit.
 related:
   - wealth
   - wealth management
@@ -175,6 +211,9 @@ off_target_soft:
   - restructuring
   - client service
   - client services
+  - investor relations
+  - financial planning
+  - fp&a
   - client management
   - product management
   - project management

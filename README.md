@@ -1,7 +1,8 @@
-# Internship tracker (asset management / equity research)
+# Internship tracker (asset management / equity research / credit)
 
-Checks the careers sites of 46 banks, asset managers and funds every 30 minutes,
-and buzzes your phone the moment a new AM / ER internship is posted. It runs free
+Checks the careers sites of 70 banks, asset managers, credit funds and hedge funds every
+30 minutes, and buzzes your phone the moment a new AM / ER / public or private credit
+internship is posted. It runs free
 on GitHub Actions, so it keeps working while your laptop is closed over break.
 
 - **Phone alert** for every new AM / ER internship. Tapping the alert opens the application.
@@ -78,7 +79,7 @@ through, just rely on Handshake's app notifications.
 
 | Priority | What | Alert |
 |---|---|---|
-| AM / ER | Asset management, equity / investment research, portfolio, fixed income, credit, investment analyst roles | Instant push (max priority). Tapping it opens the job. |
+| AM / ER / credit | Asset management, equity / investment research, portfolio, fixed income, public & private credit (direct lending, high yield, distressed, special situations, leveraged finance…), investment analyst roles. At credit specialists (Ares, Blue Owl, Oaktree, Sixth Street, OHA, …) any non-tech/ops internship. | Instant push (max priority). Tapping it opens the job. |
 | Related | Wealth management roles anywhere; other business internships at asset managers | One grouped push per run |
 | Low | IB, tech, ops, risk, HR, recruiting events at watched firms | Dashboard only |
 | Ignored | Not an internship, MBA / PhD / Masters level, wrong year, outside the US | Nothing |

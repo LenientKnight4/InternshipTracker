@@ -26,6 +26,7 @@ STATE_FILE = ROOT / "data" / "state.json"
 DASHBOARD = ROOT / "JOBS.md"
 FAIL_ALERT_AFTER = 3          # consecutive failed runs before you get a "source broken" push
 MAX_SINGLE_PUSHES = 8         # more new matches than this in one run -> one combined push
+RANK = {"low": 0, "medium": 1, "high": 2}
 HEARTBEAT_EVERY = timedelta(days=7)
 
 
@@ -119,6 +120,9 @@ def main():
                 rec = {"firm": job.firm, "source": name, "found": now, "closed": None}
                 state["jobs"][job.key] = rec
                 (seeded_now if not h["seeded"] else new_by_prio[prio]).append(rec)
+            elif rec["open"] and RANK[prio] > RANK.get(rec.get("priority"), 0):
+                # An already-open posting now matches your filters more strongly (e.g. you added keywords)
+                new_by_prio[prio].append(rec)
             rec.update(title=job.title, url=job.url, location=job.location, posted=job.posted,
                        priority=prio, open=True, closed=None)
         for key, rec in state["jobs"].items():
@@ -150,24 +154,34 @@ def main():
         md = [j for j in open_jobs if j["priority"] == "medium"]
         top = "\n".join(f"• {j['firm']}: {j['title']}" for j in hi[:10])
         push("Internship tracker is live",
-             f"{len(hi)} AM/ER internships and {len(md)} related internships are open right now."
+             f"{len(hi)} AM/ER/credit internships and {len(md)} related internships are open right now."
              + (f"\n{top}" if top else "") + "\nOpen the dashboard for the full list.",
              priority=4, url=dash, tags=["rocket"], dry_run=args.dry_run)
         state["initialized"] = True
         state["last_heartbeat"] = now
     else:
-        for name, rs in newly_seeded:
-            hi = [r for r in rs if r["priority"] == "high"]
-            push(f"Now watching {name}", f"{len(hi)} AM/ER and {len(rs) - len(hi)} other internships currently open there.",
+        if len(newly_seeded) > 3:
+            seeded = [r for _, rs in newly_seeded for r in rs]
+            hi = [r for r in seeded if r["priority"] == "high"]
+            push(f"Now watching {len(newly_seeded)} more firms",
+                 ", ".join(n for n, _ in newly_seeded)
+                 + f"\n{len(hi)} AM/ER/credit and {len(seeded) - len(hi)} other internships open there now."
+                 + "".join(f"\n• {r['firm']}: {r['title']}" for r in hi[:10]),
                  priority=3, url=dash, tags=["eyes"], dry_run=args.dry_run)
+        else:
+            for name, rs in newly_seeded:
+                hi = [r for r in rs if r["priority"] == "high"]
+                push(f"Now watching {name}",
+                     f"{len(hi)} AM/ER/credit and {len(rs) - len(hi)} other internships currently open there.",
+                     priority=3, url=dash, tags=["eyes"], dry_run=args.dry_run)
 
         hi = new_by_prio["high"]
         if len(hi) <= MAX_SINGLE_PUSHES:
             for r in hi:
-                push(f"{r['firm']}: new AM/ER internship", f"{r['title']}\n{r['location']}",
+                push(f"{r['firm']}: new AM/ER/credit internship", f"{r['title']}\n{r['location']}",
                      priority=5, url=r["url"], tags=["rotating_light"], dry_run=args.dry_run)
         else:
-            push(f"{len(hi)} new AM/ER internships",
+            push(f"{len(hi)} new AM/ER/credit internships",
                  "\n".join(f"• {r['firm']}: {r['title']}" for r in hi[:25]),
                  priority=5, url=dash, tags=["rotating_light"], dry_run=args.dry_run)
         md = new_by_prio["medium"]
@@ -197,8 +211,8 @@ def main():
         open_hi = sum(1 for j in state["jobs"].values() if j["open"] and j["priority"] == "high")
         w = state["week"]
         push("Weekly tracker check-in",
-             f"Watching {len(sources)} sources. This week: {w['high']} new AM/ER, {w['medium']} related, "
-             f"{w['low']} low-priority. {open_hi} AM/ER internships open now."
+             f"Watching {len(sources)} sources. This week: {w['high']} new AM/ER/credit, {w['medium']} related, "
+             f"{w['low']} low-priority. {open_hi} AM/ER/credit internships open now."
              + (f"\nFailing: {', '.join(failing)}" if failing else "\nAll sources OK."),
              priority=2, url=dash, tags=["calendar"], dry_run=args.dry_run)
         state["last_heartbeat"] = now
