@@ -1,6 +1,6 @@
 """Renders JOBS.md, the dashboard you open on GitHub."""
 
-LABEL = {"high": "🎯 AM / ER internships — open now",
+LABEL = {"high": "🎯 AM / ER / credit internships — open now",
          "medium": "Related internships (wealth, other asset-manager roles) — open now",
          "low": "Lower priority (IB, tech, ops, events) — open now"}
 

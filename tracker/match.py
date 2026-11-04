@@ -1,7 +1,8 @@
 """Decides whether a posting is relevant and how loudly to alert about it.
 
 Priorities:
-  high   - AM / ER internship  -> instant phone push
+  high   - AM / ER / credit internship, or any non-off-target internship at a
+           credit specialist (firm kind "credit") -> instant phone push
   medium - related: wealth roles anywhere, or other business internships at an
            asset manager -> one grouped push per run
   low    - internship at a watched firm but off-focus (IB, tech, ops, events) -> dashboard only
@@ -65,4 +66,4 @@ class Matcher:
             return "high"
         if self.related.search(text):
             return "medium"
-        return "medium" if firm_kind == "am" else "low"
+        return {"credit": "high", "am": "medium"}.get(firm_kind, "low")

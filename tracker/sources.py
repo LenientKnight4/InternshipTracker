@@ -204,6 +204,34 @@ def oleeo(src, terms):
     return list(jobs.values())
 
 
+# --- iCIMS career sites (TCW, Marathon, Stifel) -----------------------------
+
+def icims(src, terms):
+    base = src["base"].rstrip("/")
+    s = _session()
+    jobs = {}
+    for page in range(20):
+        r = _request(s, "GET", f"{base}/jobs/search?ss=1&in_iframe=1&pr={page}")
+        soup = BeautifulSoup(r.text, "html.parser")
+        found = 0
+        for a in soup.find_all("a", href=True):
+            m = re.search(r"/jobs/(\d+)/", a["href"])
+            if not m:
+                continue
+            title = re.sub(r"^(Job\s+)?Title\s+", "", a.get_text(" ", strip=True))
+            key = f"icims:{base}:{m.group(1)}"
+            if key not in jobs:
+                found += 1
+            jobs[key] = Job(key, src["name"], title, urljoin(base, a["href"].split("?")[0]))
+        pages = re.search(r"Page\s+\d+\s+of\s+(\d+)", r.text)
+        if not found or not pages or page + 1 >= int(pages.group(1)):
+            break
+        time.sleep(0.3)
+    if not jobs and "iCIMS" not in r.text and "icims" not in r.text:
+        raise SourceError("page doesn't look like an iCIMS job board anymore")
+    return list(jobs.values())
+
+
 # --- Phenom career sites (Franklin Templeton) -------------------------------
 
 def phenom(src, terms):
@@ -293,5 +321,5 @@ def page(src, terms):
 
 FETCHERS = {
     "workday": workday, "oracle": oracle, "greenhouse": greenhouse, "lever": lever, "ashby": ashby,
-    "eightfold": eightfold, "oleeo": oleeo, "phenom": phenom, "goldman": goldman, "page": page,
+    "eightfold": eightfold, "oleeo": oleeo, "icims": icims, "phenom": phenom, "goldman": goldman, "page": page,
 }
