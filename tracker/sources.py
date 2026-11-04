@@ -3,7 +3,11 @@
 Every fetcher takes a source dict from firms.yaml plus a list of search terms
 and returns a list of Job objects. Any network or format problem raises
 SourceError so the health checks can notice a broken source.
+
+describe() returns a posting's full description text, used to check which
+class years can apply.
 """
+import html
 import json
 import re
 import time
@@ -28,10 +32,19 @@ class Job:
     location: str = ""
     posted: str = ""
     extra: str = ""   # extra text used only for matching (e.g. GS division)
+    description: str = ""  # filled in when the listing already includes it
+    detail: str = ""       # API URL for the full description, when the system has one
 
 
 class SourceError(Exception):
     pass
+
+
+def _text(markup):
+    soup = BeautifulSoup(markup or "", "html.parser")
+    for tag in soup(["script", "style", "noscript"]):
+        tag.decompose()
+    return re.sub(r"\s+", " ", soup.get_text(" ")).strip()
 
 
 def _session():
@@ -86,7 +99,8 @@ def workday(src, terms):
                 rid = (p.get("bulletFields") or [path])[0]
                 key = f"wd:{t}:{rid}"
                 jobs[key] = Job(key, src["name"], p.get("title", "").strip(), f"{base}/{site}{path}",
-                                p.get("locationsText", ""), p.get("postedOn", ""))
+                                p.get("locationsText", ""), p.get("postedOn", ""),
+                                detail=f"{base}/wday/cxs/{t}/{site}{path}")
             offset += 20
             if not posts or offset >= min(total, MAX_RESULTS_PER_QUERY):
                 break
@@ -120,7 +134,9 @@ def oracle(src, terms):
                 locs = [x.get("PrimaryLocation") or ""] + [l.get("Name", "") for l in x.get("secondaryLocations") or []]
                 jobs[key] = Job(key, src["name"], x.get("Title", "").strip(),
                                 f"https://{host}/hcmUI/CandidateExperience/en/sites/{site}/job/{x['Id']}",
-                                "; ".join(l for l in locs if l), x.get("PostedDate") or "")
+                                "; ".join(l for l in locs if l), x.get("PostedDate") or "",
+                                detail=(f"https://{host}/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails"
+                                        f"?expand=all&onlyData=true&finder=ById;Id=%22{x['Id']}%22,siteNumber={site}"))
             offset += 25
             if not reqs or offset >= min(total, MAX_RESULTS_PER_QUERY):
                 break
@@ -132,9 +148,10 @@ def oracle(src, terms):
 
 def greenhouse(src, terms):
     board = src["board"]
-    data = _json(_request(_session(), "GET", f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs"))
+    data = _json(_request(_session(), "GET", f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true"))
     return [Job(f"gh:{board}:{j['id']}", src["name"], j["title"].strip(), j["absolute_url"],
-                (j.get("location") or {}).get("name", ""), (j.get("first_published") or j.get("updated_at") or "")[:10])
+                (j.get("location") or {}).get("name", ""), (j.get("first_published") or j.get("updated_at") or "")[:10],
+                description=_text(html.unescape(j.get("content") or "")))
             for j in data.get("jobs", [])]
 
 
@@ -143,7 +160,9 @@ def lever(src, terms):
     data = _json(_request(_session(), "GET", f"https://api.lever.co/v0/postings/{co}?mode=json"))
     return [Job(f"lever:{co}:{j['id']}", src["name"], j["text"].strip(), j["hostedUrl"],
                 (j.get("categories") or {}).get("location", ""),
-                time.strftime("%Y-%m-%d", time.gmtime(j["createdAt"] / 1000)) if j.get("createdAt") else "")
+                time.strftime("%Y-%m-%d", time.gmtime(j["createdAt"] / 1000)) if j.get("createdAt") else "",
+                description=" ".join([j.get("descriptionPlain") or "", j.get("additionalPlain") or ""]
+                                     + [_text(l.get("content")) for l in j.get("lists") or []]))
             for j in data]
 
 
@@ -151,7 +170,7 @@ def ashby(src, terms):
     board = src["board"]
     data = _json(_request(_session(), "GET", f"https://api.ashbyhq.com/posting-api/job-board/{board}"))
     return [Job(f"ashby:{board}:{j['id']}", src["name"], j["title"].strip(), j["jobUrl"],
-                j.get("location", ""), (j.get("publishedAt") or "")[:10])
+                j.get("location", ""), (j.get("publishedAt") or "")[:10], description=j.get("descriptionPlain") or "")
             for j in data.get("jobs", [])]
 
 
@@ -173,7 +192,8 @@ def eightfold(src, terms):
                 jobs[key] = Job(key, src["name"], p.get("name", "").strip(),
                                 p.get("canonicalPositionUrl") or f"https://{host}/careers?pid={p['id']}&domain={domain}",
                                 p.get("location", ""),
-                                time.strftime("%Y-%m-%d", time.gmtime(p["t_create"])) if p.get("t_create") else "")
+                                time.strftime("%Y-%m-%d", time.gmtime(p["t_create"])) if p.get("t_create") else "",
+                                description=_text(p.get("job_description")))
             start += 10
             if not data["positions"] or start >= min(data.get("count", 0), MAX_RESULTS_PER_QUERY):
                 break
@@ -317,6 +337,37 @@ def page(src, terms):
         key = f"page:{src['name']}:{text.lower()}"
         jobs[key] = Job(key, src["name"], text, urljoin(src["url"], href) if href else src["url"])
     return list(jobs.values())
+
+
+# --- Full description for one posting --------------------------------------
+
+def describe(src, job):
+    """Full description text of a posting, or "" if this system doesn't expose one.
+
+    Oleeo (tal.net) detail pages sit behind a "are you a real person" check, so
+    they're never fetched; those postings are judged on their title alone.
+    """
+    if job.description:
+        return job.description
+    t = src["type"]
+    s = _session()
+    if t == "workday" and job.detail:
+        info = _json(_request(s, "GET", job.detail)).get("jobPostingInfo") or {}
+        return _text(info.get("jobDescription"))
+    if t == "oracle" and job.detail:
+        items = _json(_request(s, "GET", job.detail)).get("items") or [{}]
+        return _text(" ".join(str(items[0].get(k) or "") for k in
+                              ("ExternalDescriptionStr", "ExternalResponsibilitiesStr", "ExternalQualificationsStr")))
+    if t == "goldman":
+        page_html = _request(s, "GET", job.url).text
+        m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', page_html, re.S)
+        return _text(json.dumps(json.loads(m.group(1)), ensure_ascii=False)) if m else ""
+    if t == "icims":
+        return _text(_request(s, "GET", job.url + "?in_iframe=1").text)
+    if t == "phenom":
+        m = re.search(r'"description"\s*:\s*"((?:[^"\\]|\\.)*)"', _request(s, "GET", job.url).text)
+        return _text(html.unescape(json.loads(f'"{m.group(1)}"'))) if m else ""
+    return ""
 
 
 FETCHERS = {

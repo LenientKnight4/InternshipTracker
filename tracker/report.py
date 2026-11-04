@@ -12,11 +12,12 @@ def _cell(s):
 def _table(rows, closed=False):
     if not rows:
         return "_None right now._\n"
-    head = "| Found | Firm | Role | Location |" + (" Closed |" if closed else "")
-    sep = "|---|---|---|---|" + ("---|" if closed else "")
+    head = "| Found | Firm | Role | Location | Who can apply |" + (" Closed |" if closed else "")
+    sep = "|---|---|---|---|---|" + ("---|" if closed else "")
     lines = [head, sep]
     for j in rows:
-        line = f"| {j['found'][:10]} | {_cell(j['firm'])} | [{_cell(j['title'])}]({j['url']}) | {_cell(j['location'])[:60]} |"
+        line = (f"| {j['found'][:10]} | {_cell(j['firm'])} | [{_cell(j['title'])}]({j['url']}) "
+                f"| {_cell(j['location'])[:60]} | {_cell(j.get('fit', ''))} |")
         if closed:
             line += f" {j['closed'][:10]} |"
         lines.append(line)
