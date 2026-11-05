@@ -115,11 +115,6 @@
    "source": "Schonfeld",
    "why": "summer 2027, no sign sophomores can apply"
   },
-  "gh:schonfeld:8171694": {
-   "ok": false,
-   "source": "Schonfeld",
-   "why": "summer 2027, no sign sophomores can apply"
-  },
   "gh:schonfeld:8171776": {
    "ok": false,
    "source": "Schonfeld",
@@ -511,6 +506,11 @@
    "why": "for class of 2027/2028"
   },
   "oracle:eofe.fa.us2.oraclecloud.com:82784": {
+   "ok": false,
+   "source": "BNY",
+   "why": "for class of 2027/2028"
+  },
+  "oracle:eofe.fa.us2.oraclecloud.com:83662": {
    "ok": false,
    "source": "BNY",
    "why": "for class of 2027/2028"
@@ -1205,11 +1205,6 @@
    "source": "PIMCO",
    "why": "summer 2027, no sign sophomores can apply"
   },
-  "wd:pimco:R106739": {
-   "ok": false,
-   "source": "PIMCO",
-   "why": "summer 2027, no sign sophomores can apply"
-  },
   "wd:pimco:R106740": {
    "ok": false,
    "source": "PIMCO",
@@ -1371,11 +1366,6 @@
    "why": "open to class of 2029"
   },
   "wd:tiaa:R261000124": {
-   "ok": true,
-   "source": "Nuveen / TIAA",
-   "why": "open to class of 2029"
-  },
-  "wd:tiaa:R261000127": {
    "ok": true,
    "source": "Nuveen / TIAA",
    "why": "open to class of 2029"
@@ -1897,6 +1887,19 @@
    "source": "Bank of America",
    "title": "Bank of America | Early Insights Event",
    "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/2/opp/15242-Bank-of-America-Early-Insights-Event/en-GB"
+  },
+  "tal:Bank of America:15270": {
+   "closed": null,
+   "firm": "Bank of America",
+   "fit": "summer 2028 (after junior year)",
+   "found": "2026-11-05T18:40:26+00:00",
+   "location": "",
+   "open": true,
+   "posted": "",
+   "priority": "low",
+   "source": "Bank of America",
+   "title": "Global Investment Banking Summer Analyst Program 2028 - Energy",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15270-Global-Investment-Banking-Summer-Analyst-Program-2028-Energy/en-GB"
   },
   "tal:Evercore:3274": {
    "closed": null,
@@ -2523,12 +2526,12 @@
    "url": "https://tiaa.wd1.myworkdayjobs.com/Search/job/Charlotte-NC-USA/XMLNAME-2027-Early-Talent-Internship--Risk---Compliance_R261000124"
   },
   "wd:tiaa:R261000127": {
-   "closed": null,
+   "closed": "2026-11-05T18:40:26+00:00",
    "firm": "Nuveen / TIAA",
    "fit": "open to class of 2029",
    "found": "2026-11-04T22:15:49+00:00",
    "location": "Charlotte, NC, USA",
-   "open": true,
+   "open": false,
    "posted": "Posted 17 Days Ago",
    "priority": "low",
    "source": "Nuveen / TIAA",
@@ -3169,7 +3172,7 @@
  },
  "week": {
   "high": 2,
-  "low": 1,
+  "low": 2,
   "medium": 0
  }
 }
