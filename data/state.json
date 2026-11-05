@@ -310,11 +310,6 @@
    "source": "Goldman Sachs",
    "why": "summer 2027, no sign sophomores can apply"
   },
-  "gs:185351_GS_CAMPUS": {
-   "ok": false,
-   "source": "Goldman Sachs",
-   "why": "summer 2027, no sign sophomores can apply"
-  },
   "gs:188207_GS_CAMPUS": {
    "ok": false,
    "source": "Goldman Sachs",
@@ -1090,6 +1085,11 @@
    "source": "Voya",
    "why": "summer 2027, no sign sophomores can apply"
   },
+  "wd:invesco:R-15590": {
+   "ok": false,
+   "source": "Invesco",
+   "why": "for class of 2028"
+  },
   "wd:invesco:R-15600": {
    "ok": false,
    "source": "Invesco",
@@ -1329,6 +1329,11 @@
    "ok": true,
    "source": "State Street",
    "why": "open to sophomores"
+  },
+  "wd:td:R_1503140": {
+   "ok": true,
+   "source": "TD",
+   "why": "no class year listed; check eligibility"
   },
   "wd:td:R_1508518": {
    "ok": false,
@@ -1894,11 +1899,12 @@
    "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/2/opp/15242-Bank-of-America-Early-Insights-Event/en-GB"
   },
   "tal:Evercore:3274": {
-   "closed": "2026-11-04T23:01:28+00:00",
+   "closed": null,
    "firm": "Evercore",
+   "fit": "summer 2028 (after junior year)",
    "found": "2026-11-04T22:15:49+00:00",
    "location": "",
-   "open": false,
+   "open": true,
    "posted": "",
    "priority": "low",
    "source": "Evercore",
@@ -1906,11 +1912,12 @@
    "url": "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3274-2028-Summer-Analyst-Intro-to-Evercore-Notre-Dame/en-GB"
   },
   "tal:Evercore:3351": {
-   "closed": "2026-11-04T23:01:28+00:00",
+   "closed": null,
    "firm": "Evercore",
+   "fit": "summer 2028 (after junior year)",
    "found": "2026-11-04T22:15:49+00:00",
    "location": "",
-   "open": false,
+   "open": true,
    "posted": "",
    "priority": "low",
    "source": "Evercore",
@@ -1918,11 +1925,12 @@
    "url": "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3351-2028-Evercore-Summer-Analyst-Coffee-Chats-Menlo-Park-Healthcare/en-GB"
   },
   "tal:Evercore:3379": {
-   "closed": "2026-11-04T23:01:28+00:00",
+   "closed": null,
    "firm": "Evercore",
+   "fit": "summer 2028 (after junior year)",
    "found": "2026-11-04T22:15:49+00:00",
    "location": "",
-   "open": false,
+   "open": true,
    "posted": "",
    "priority": "low",
    "source": "Evercore",
@@ -1930,11 +1938,12 @@
    "url": "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3379-2028-Evercore-Summer-Analyst-Veteran-Coffee-Chats/en-GB"
   },
   "tal:Evercore:3439": {
-   "closed": "2026-11-04T23:01:28+00:00",
+   "closed": null,
    "firm": "Evercore",
+   "fit": "summer 2028 (after junior year)",
    "found": "2026-11-04T22:15:49+00:00",
    "location": "",
-   "open": false,
+   "open": true,
    "posted": "",
    "priority": "low",
    "source": "Evercore",
@@ -1942,11 +1951,12 @@
    "url": "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3439-2028-Evercore-Summer-Analyst-HBCU-Coffee-Chats/en-GB"
   },
   "tal:Evercore:3478": {
-   "closed": "2026-11-04T23:01:28+00:00",
+   "closed": null,
    "firm": "Evercore",
+   "fit": "summer 2028 (after junior year)",
    "found": "2026-11-04T22:15:49+00:00",
    "location": "",
-   "open": false,
+   "open": true,
    "posted": "",
    "priority": "low",
    "source": "Evercore",
@@ -1954,11 +1964,12 @@
    "url": "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3478-2028-Evercore-Summer-Analyst-NESCAC-Virtual-Info-Session/en-GB"
   },
   "tal:Evercore:3483": {
-   "closed": "2026-11-04T23:01:28+00:00",
+   "closed": null,
    "firm": "Evercore",
+   "fit": "summer 2028 (after junior year)",
    "found": "2026-11-04T22:15:49+00:00",
    "location": "",
-   "open": false,
+   "open": true,
    "posted": "",
    "priority": "low",
    "source": "Evercore",
@@ -1966,11 +1977,12 @@
    "url": "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3483-2028-Evercore-Summer-Analyst-Virtual-Open-House-Private-Capital-Markets-Credit-Ratings/en-GB"
   },
   "tal:Evercore:3495": {
-   "closed": "2026-11-04T23:01:28+00:00",
+   "closed": null,
    "firm": "Evercore",
+   "fit": "summer 2028 (after junior year)",
    "found": "2026-11-04T22:15:49+00:00",
    "location": "",
-   "open": false,
+   "open": true,
    "posted": "",
    "priority": "low",
    "source": "Evercore",
@@ -1978,11 +1990,12 @@
    "url": "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3495-2028-Summer-Analyst-Evercore-Private-Capital-Advisory-Georgetown-Campus-Visit/en-GB"
   },
   "tal:Evercore:3497": {
-   "closed": "2026-11-04T23:01:28+00:00",
+   "closed": null,
    "firm": "Evercore",
+   "fit": "summer 2028 (after junior year)",
    "found": "2026-11-04T22:15:49+00:00",
    "location": "",
-   "open": false,
+   "open": true,
    "posted": "",
    "priority": "low",
    "source": "Evercore",
@@ -1990,11 +2003,12 @@
    "url": "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3497-2028-Summer-Analyst-Evercore-Private-Capital-Advisory-Duke-Campus-Visit/en-GB"
   },
   "tal:Evercore:3501": {
-   "closed": "2026-11-04T23:01:28+00:00",
+   "closed": null,
    "firm": "Evercore",
+   "fit": "summer 2028 (after junior year)",
    "found": "2026-11-04T22:15:49+00:00",
    "location": "",
-   "open": false,
+   "open": true,
    "posted": "",
    "priority": "low",
    "source": "Evercore",
@@ -2002,11 +2016,12 @@
    "url": "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3501-2028-ISI-Evercore-Summer-Analyst-Virtual-Open-House-Equity-Research-and-Sales-Trading/en-GB"
   },
   "tal:Evercore:3506": {
-   "closed": "2026-11-04T23:01:28+00:00",
+   "closed": null,
    "firm": "Evercore",
+   "fit": "summer 2028 (after junior year)",
    "found": "2026-11-04T22:15:49+00:00",
    "location": "",
-   "open": false,
+   "open": true,
    "posted": "",
    "priority": "low",
    "source": "Evercore",
@@ -2467,6 +2482,19 @@
    "source": "State Street",
    "title": "State Street Investment Management - Global Leveraged Finance Intern - 2027 Summer",
    "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-Investment-Management---Global-Leveraged-Finance-Intern---2027-Summer_R-800756"
+  },
+  "wd:td:R_1503140": {
+   "closed": null,
+   "firm": "TD",
+   "fit": "no class year listed; check eligibility",
+   "found": "2026-11-05T02:43:16+00:00",
+   "location": "Windsor, Ontario",
+   "open": true,
+   "posted": "Posted Today",
+   "priority": "low",
+   "source": "TD",
+   "title": "Commercial Banking Intern / Co-Op",
+   "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Windsor-Ontario/Commercial-Banking-Intern---Co-Op_R_1503140"
   },
   "wd:tiaa:R261000123": {
    "closed": null,
@@ -3141,7 +3169,7 @@
  },
  "week": {
   "high": 2,
-  "low": 0,
+  "low": 1,
   "medium": 0
  }
 }

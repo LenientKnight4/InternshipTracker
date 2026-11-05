@@ -1,6 +1,6 @@
 # Internship tracker
 
-_Updated 2026-11-04 23:01 UTC · watching 70 sources · all sources OK_
+_Updated 2026-11-05 02:43 UTC · watching 70 sources · all sources OK_
 
 ## 🎯 AM / ER / credit internships — open now (9)
 
@@ -23,11 +23,12 @@ _Updated 2026-11-04 23:01 UTC · watching 70 sources · all sources OK_
 | 2026-11-04 | Brookfield | [Intern, Global Client Group](https://brookfield.wd5.myworkdayjobs.com/brookfield/job/New-York-New-York/Intern--Global-Client-Group_R2053582) | New York, New York | no class year listed; check eligibility |
 | 2026-11-04 | Brookfield | [Intern, Private Wealth](https://brookfield.wd5.myworkdayjobs.com/brookfield/job/New-York-New-York/Intern--Private-Wealth_R2053547) | New York, New York | no class year listed; check eligibility |
 
-<details><summary><b>Lower priority (IB, tech, ops, events) — open now (76)</b></summary>
+<details><summary><b>Lower priority (IB, tech, ops, events) — open now (87)</b></summary>
 
 
 | Found | Firm | Role | Location | Who can apply |
 |---|---|---|---|---|
+| 2026-11-05 | TD | [Commercial Banking Intern / Co-Op](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Windsor-Ontario/Commercial-Banking-Intern---Co-Op_R_1503140) | Windsor, Ontario | no class year listed; check eligibility |
 | 2026-11-04 | Audax (Private Debt) | [IT Operations Co-Op](https://job-boards.greenhouse.io/audaxgroup/jobs/4722750005) | Boston, MA | no class year listed; check eligibility |
 | 2026-11-04 | Audax (Private Debt) | [Investor Relations CO-OP](https://job-boards.greenhouse.io/audaxgroup/jobs/4726930005) | New York | no class year listed; check eligibility |
 | 2026-11-04 | Audax (Private Debt) | [Financial Planning & Analysis Co-Op](https://job-boards.greenhouse.io/audaxgroup/jobs/4737364005) | Boston, MA | no class year listed; check eligibility |
@@ -58,6 +59,16 @@ _Updated 2026-11-04 23:01 UTC · watching 70 sources · all sources OK_
 | 2026-11-04 | Lazard | [2028 Summer Analyst - New York M&A / Restructuring Generalist](https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6768) | New York, United States | summer 2028 (after junior year) |
 | 2026-11-04 | JPMorgan | [2028 Global Investment Banking Summer Analyst Program – Houston](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210805837) | Houston, TX, United States | summer 2028 (after junior year) |
 | 2026-11-04 | Bank of America | [Bank of America \| Early Insights Event](https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/2/opp/15242-Bank-of-America-Early-Insights-Event/en-GB) |  | for sophomores |
+| 2026-11-04 | Evercore | [2028 Summer Analyst Intro to Evercore - Notre Dame](https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3274-2028-Summer-Analyst-Intro-to-Evercore-Notre-Dame/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-04 | Evercore | [2028 Evercore Summer Analyst Coffee Chats - Menlo Park Healthcare](https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3351-2028-Evercore-Summer-Analyst-Coffee-Chats-Menlo-Park-Healthcare/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-04 | Evercore | [2028 Evercore Summer Analyst Veteran Coffee Chats](https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3379-2028-Evercore-Summer-Analyst-Veteran-Coffee-Chats/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-04 | Evercore | [2028 Evercore Summer Analyst HBCU Coffee Chats](https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3439-2028-Evercore-Summer-Analyst-HBCU-Coffee-Chats/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-04 | Evercore | [2028 Evercore Summer Analyst NESCAC Virtual Info Session](https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3478-2028-Evercore-Summer-Analyst-NESCAC-Virtual-Info-Session/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-04 | Evercore | [2028 Evercore Summer Analyst Virtual Open House – Private Capital Markets – Credit Ratings](https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3483-2028-Evercore-Summer-Analyst-Virtual-Open-House-Private-Capital-Markets-Credit-Ratings/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-04 | Evercore | [2028 Summer Analyst Evercore Private Capital Advisory \| Georgetown Campus Visit](https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3495-2028-Summer-Analyst-Evercore-Private-Capital-Advisory-Georgetown-Campus-Visit/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-04 | Evercore | [2028 Summer Analyst Evercore Private Capital Advisory \| Duke Campus Visit](https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3497-2028-Summer-Analyst-Evercore-Private-Capital-Advisory-Duke-Campus-Visit/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-04 | Evercore | [2028 ISI Evercore Summer Analyst Virtual Open House - Equity Research and Sales & Trading](https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3501-2028-ISI-Evercore-Summer-Analyst-Virtual-Open-House-Equity-Research-and-Sales-Trading/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-04 | Evercore | [2028 Evercore Private Capital Advisory Summer Analyst Coffee Chats - Dartmouth College](https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3506-2028-Evercore-Private-Capital-Advisory-Summer-Analyst-Coffee-Chats-Dartmouth-College/en-GB) |  | summer 2028 (after junior year) |
 | 2026-11-04 | Jefferies | [2028 Investment Banking Summer Analyst Program – Houston, Energy Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1989-2028-Investment-Banking-Summer-Analyst-Program-Houston-Energy-Group/en-GB) |  | summer 2028 (after junior year) |
 | 2026-11-04 | Jefferies | [2028 Investment Banking Summer Analyst Program – Houston, Energy Transition Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2001-2028-Investment-Banking-Summer-Analyst-Program-Houston-Energy-Transition-Group/en-GB) |  | summer 2028 (after junior year) |
 | 2026-11-04 | Jefferies | [2028 Investment Banking Summer Analyst Program – New York, Municipals Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2028-2028-Investment-Banking-Summer-Analyst-Program-New-York-Municipals-Group/en-GB) |  | summer 2028 (after junior year) |
@@ -133,11 +144,11 @@ _None right now._
 | Northern Trust | workday | ✅ | 0 |
 | RBC | workday | ✅ | 5 |
 | BMO | workday | ✅ | 0 |
-| TD | workday | ✅ | 0 |
+| TD | workday | ✅ | 1 |
 | Mizuho | workday | ✅ | 0 |
 | Nomura | oleeo | ✅ | 1 |
 | Jefferies | oleeo | ✅ | 12 |
-| Evercore | oleeo | ✅ | 0 |
+| Evercore | oleeo | ✅ | 10 |
 | Lazard | oracle | ✅ | 15 |
 | William Blair | greenhouse | ✅ | 0 |
 | Baird | workday | ✅ | 2 |
