@@ -1020,11 +1020,6 @@
    "source": "Citi",
    "why": "for class of 2027/2028"
   },
-  "wd:citi:261007501": {
-   "ok": false,
-   "source": "Citi",
-   "why": "for class of 2027/2028"
-  },
   "wd:citi:26951372": {
    "ok": false,
    "source": "Citi",
@@ -1125,6 +1120,11 @@
    "source": "Invesco",
    "why": "for class of 2028"
   },
+  "wd:invesco:R-15876": {
+   "ok": false,
+   "source": "Invesco",
+   "why": "for class of 2028"
+  },
   "wd:invesco:R-15908": {
    "ok": false,
    "source": "Invesco",
@@ -1195,11 +1195,6 @@
    "source": "PIMCO",
    "why": "for class of 2027/2028"
   },
-  "wd:pimco:R106626": {
-   "ok": false,
-   "source": "PIMCO",
-   "why": "for class of 2028"
-  },
   "wd:pimco:R106627": {
    "ok": false,
    "source": "PIMCO",
@@ -1251,11 +1246,6 @@
    "why": "for class of 2028"
   },
   "wd:pimco:R106763": {
-   "ok": false,
-   "source": "PIMCO",
-   "why": "for class of 2028"
-  },
-  "wd:pimco:R106768": {
    "ok": false,
    "source": "PIMCO",
    "why": "for class of 2028"
@@ -1325,11 +1315,6 @@
    "source": "State Street",
    "why": "open to sophomores"
   },
-  "wd:td:R_1503140": {
-   "ok": true,
-   "source": "TD",
-   "why": "no class year listed; check eligibility"
-  },
   "wd:td:R_1508518": {
    "ok": false,
    "source": "TD",
@@ -1360,15 +1345,25 @@
    "source": "TD",
    "why": "summer 2027, no sign sophomores can apply"
   },
-  "wd:tiaa:R261000123": {
-   "ok": true,
-   "source": "Nuveen / TIAA",
-   "why": "open to class of 2029"
-  },
   "wd:tiaa:R261000124": {
    "ok": true,
    "source": "Nuveen / TIAA",
    "why": "open to class of 2029"
+  },
+  "wd:truist:R0117749": {
+   "ok": false,
+   "source": "Truist",
+   "why": "for class of 2026/2027"
+  },
+  "wd:truist:R0121539": {
+   "ok": false,
+   "source": "Truist",
+   "why": "for class of 2027/2028"
+  },
+  "wd:truist:R0121545": {
+   "ok": false,
+   "source": "Truist",
+   "why": "for class of 2027/2028"
   },
   "wd:vanguard:181762": {
    "ok": true,
@@ -2487,12 +2482,12 @@
    "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-Investment-Management---Global-Leveraged-Finance-Intern---2027-Summer_R-800756"
   },
   "wd:td:R_1503140": {
-   "closed": null,
+   "closed": "2026-11-06T00:05:04+00:00",
    "firm": "TD",
    "fit": "no class year listed; check eligibility",
    "found": "2026-11-05T02:43:16+00:00",
    "location": "Windsor, Ontario",
-   "open": true,
+   "open": false,
    "posted": "Posted Yesterday",
    "priority": "low",
    "source": "TD",
@@ -2500,12 +2495,12 @@
    "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Windsor-Ontario/Commercial-Banking-Intern---Co-Op_R_1503140"
   },
   "wd:tiaa:R261000123": {
-   "closed": null,
+   "closed": "2026-11-06T00:05:04+00:00",
    "firm": "Nuveen / TIAA",
    "fit": "open to class of 2029",
    "found": "2026-11-04T22:15:49+00:00",
    "location": "2 Locations",
-   "open": true,
+   "open": false,
    "posted": "Posted 24 Days Ago",
    "priority": "low",
    "source": "Nuveen / TIAA",

@@ -1,6 +1,6 @@
 # Internship tracker
 
-_Updated 2026-11-05 18:40 UTC · watching 70 sources · all sources OK_
+_Updated 2026-11-06 00:05 UTC · watching 70 sources · all sources OK_
 
 ## 🎯 AM / ER / credit internships — open now (9)
 
@@ -23,13 +23,12 @@ _Updated 2026-11-05 18:40 UTC · watching 70 sources · all sources OK_
 | 2026-11-04 | Brookfield | [Intern, Global Client Group](https://brookfield.wd5.myworkdayjobs.com/brookfield/job/New-York-New-York/Intern--Global-Client-Group_R2053582) | New York, New York | no class year listed; check eligibility |
 | 2026-11-04 | Brookfield | [Intern, Private Wealth](https://brookfield.wd5.myworkdayjobs.com/brookfield/job/New-York-New-York/Intern--Private-Wealth_R2053547) | New York, New York | no class year listed; check eligibility |
 
-<details><summary><b>Lower priority (IB, tech, ops, events) — open now (86)</b></summary>
+<details><summary><b>Lower priority (IB, tech, ops, events) — open now (84)</b></summary>
 
 
 | Found | Firm | Role | Location | Who can apply |
 |---|---|---|---|---|
 | 2026-11-05 | Bank of America | [Global Investment Banking Summer Analyst Program 2028 - Energy](https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15270-Global-Investment-Banking-Summer-Analyst-Program-2028-Energy/en-GB) |  | summer 2028 (after junior year) |
-| 2026-11-05 | TD | [Commercial Banking Intern / Co-Op](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Windsor-Ontario/Commercial-Banking-Intern---Co-Op_R_1503140) | Windsor, Ontario | no class year listed; check eligibility |
 | 2026-11-04 | Audax (Private Debt) | [IT Operations Co-Op](https://job-boards.greenhouse.io/audaxgroup/jobs/4722750005) | Boston, MA | no class year listed; check eligibility |
 | 2026-11-04 | Audax (Private Debt) | [Investor Relations CO-OP](https://job-boards.greenhouse.io/audaxgroup/jobs/4726930005) | New York | no class year listed; check eligibility |
 | 2026-11-04 | Audax (Private Debt) | [Financial Planning & Analysis Co-Op](https://job-boards.greenhouse.io/audaxgroup/jobs/4737364005) | Boston, MA | no class year listed; check eligibility |
@@ -97,7 +96,6 @@ _Updated 2026-11-05 18:40 UTC · watching 70 sources · all sources OK_
 | 2026-11-04 | RBC | [Internship - Regulatory Reporting](https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/PERSIARAN-IRC-2-IOI-RESORT-CITY-IOI-CITY-TOWER-ONEPUTRAJAYA/Internship---Regulatory-Reporting_R-0000190146) | PERSIARAN IRC 2, IOI RESORT CITY IOI CITY TOWER ONE:PUTRAJAY | no class year listed; check eligibility |
 | 2026-11-04 | RBC | [Internship - Regulatory Reporting](https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/PERSIARAN-IRC-2-IOI-RESORT-CITY-IOI-CITY-TOWER-ONEPUTRAJAYA/Internship---Regulatory-Reporting_R-0000190165-2) | PERSIARAN IRC 2, IOI RESORT CITY IOI CITY TOWER ONE:PUTRAJAY | no class year listed; check eligibility |
 | 2026-11-04 | RBC | [2028 Capital Markets, Global Markets Origination Summer Analyst](https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Capital-Markets--Global-Markets-Origination-Summer-Analyst_R-0000191762) | New York, New York, United States of America | summer 2028 (after junior year) |
-| 2026-11-04 | Nuveen / TIAA | [2027 Early Talent Internship: Internal Audit](https://tiaa.wd1.myworkdayjobs.com/Search/job/Charlotte-NC-USA/XMLNAME-2027-Early-Talent-Internship--Internal-Audit_R261000123) | 2 Locations | open to class of 2029 |
 | 2026-11-04 | Nuveen / TIAA | [2027 Early Talent Internship: Risk & Compliance](https://tiaa.wd1.myworkdayjobs.com/Search/job/Charlotte-NC-USA/XMLNAME-2027-Early-Talent-Internship--Risk---Compliance_R261000124) | 3 Locations | open to class of 2029 |
 | 2026-11-04 | Truist | [2028 Truist Securities - Energy, Oil & Gas Investment Banking - Summer Analyst Program - Houston, TX](https://truist.wd1.myworkdayjobs.com/Careers/job/Houston-TX/XMLNAME-2028-Truist-Securities---Energy--Oil---Gas-Investment-Banking---Summer-Analyst-Program---Houston--TX_R0121314-1) | Houston, TX | summer 2028 (after junior year) |
 | 2026-11-04 | Vanguard | [College to Corporate IT Internship - Risk & Security - Analyst  (PA)](https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship---Risk---Security---Analyst---PA-_181762) | Malvern, PA | no class year listed; check eligibility |
@@ -143,7 +141,7 @@ _None right now._
 | Northern Trust | workday | ✅ | 0 |
 | RBC | workday | ✅ | 5 |
 | BMO | workday | ✅ | 0 |
-| TD | workday | ✅ | 1 |
+| TD | workday | ✅ | 0 |
 | Mizuho | workday | ✅ | 0 |
 | Nomura | oleeo | ✅ | 1 |
 | Jefferies | oleeo | ✅ | 12 |
@@ -166,7 +164,7 @@ _None right now._
 | Franklin Templeton | phenom | ✅ | 0 |
 | AllianceBernstein | workday | ✅ | 0 |
 | Neuberger Berman | workday | ✅ | 0 |
-| Nuveen / TIAA | workday | ✅ | 2 |
+| Nuveen / TIAA | workday | ✅ | 1 |
 | American Century | workday | ✅ | 1 |
 | Dodge & Cox | workday | ✅ | 1 |
 | Artisan Partners | greenhouse | ✅ | 0 |
