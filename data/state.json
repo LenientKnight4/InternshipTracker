@@ -45,11 +45,6 @@
    "source": "Audax (Private Debt)",
    "why": "no class year listed; check eligibility"
   },
-  "gh:audaxgroup:4737824005": {
-   "ok": true,
-   "source": "Audax (Private Debt)",
-   "why": "no class year listed; check eligibility"
-  },
   "gh:point72:7297642002": {
    "ok": false,
    "source": "Point72",
@@ -310,6 +305,11 @@
    "source": "Goldman Sachs",
    "why": "summer 2027, no sign sophomores can apply"
   },
+  "gs:188644_GS_CAMPUS": {
+   "ok": false,
+   "source": "Goldman Sachs",
+   "why": "summer 2027, no sign sophomores can apply"
+  },
   "icims:https://careers-stifel.icims.com:10095": {
    "ok": true,
    "source": "Stifel",
@@ -515,6 +515,11 @@
    "source": "BNY",
    "why": "for class of 2027/2028"
   },
+  "oracle:eofe.fa.us2.oraclecloud.com:83681": {
+   "ok": false,
+   "source": "BNY",
+   "why": "for class of 2027/2028"
+  },
   "oracle:icbpjb.fa.ocs.oraclecloud.com:6608": {
    "ok": false,
    "source": "Lazard",
@@ -543,6 +548,11 @@
   "oracle:icbpjb.fa.ocs.oraclecloud.com:6614": {
    "ok": false,
    "source": "Lazard",
+   "why": "for class of 2027/2028"
+  },
+  "oracle:jpmc.fa.oraclecloud.com:210690282": {
+   "ok": false,
+   "source": "JPMorgan",
    "why": "for class of 2027/2028"
   },
   "oracle:jpmc.fa.oraclecloud.com:210690781": {
@@ -765,16 +775,6 @@
    "source": "Baird",
    "why": "for class of 2027"
   },
-  "wd:baird:R20261107": {
-   "ok": false,
-   "source": "Baird",
-   "why": "for class of 2027"
-  },
-  "wd:baird:R20261108": {
-   "ok": false,
-   "source": "Baird",
-   "why": "for class of 2027"
-  },
   "wd:baird:R20261112": {
    "ok": false,
    "source": "Baird",
@@ -970,6 +970,11 @@
    "source": "Citi",
    "why": "for class of 2027/2028"
   },
+  "wd:citi:25928736": {
+   "ok": false,
+   "source": "Citi",
+   "why": "for class of 2027/2028"
+  },
   "wd:citi:25928747": {
    "ok": false,
    "source": "Citi",
@@ -1059,6 +1064,11 @@
    "ok": false,
    "source": "Voya",
    "why": "summer 2027, no sign sophomores can apply"
+  },
+  "wd:godirect:JR0033386": {
+   "ok": true,
+   "source": "Voya",
+   "why": "no class year listed; check eligibility"
   },
   "wd:invesco:R-15590": {
    "ok": false,
@@ -1325,7 +1335,7 @@
    "source": "TD",
    "why": "summer 2027, no sign sophomores can apply"
   },
-  "wd:tiaa:R261000124": {
+  "wd:tiaa:R261000123": {
    "ok": true,
    "source": "Nuveen / TIAA",
    "why": "open to class of 2029"
@@ -1469,12 +1479,12 @@
    "url": "https://job-boards.greenhouse.io/audaxgroup/jobs/4737364005"
   },
   "gh:audaxgroup:4737824005": {
-   "closed": null,
+   "closed": "2026-11-06T20:32:31+00:00",
    "firm": "Audax (Private Debt)",
    "fit": "no class year listed; check eligibility",
    "found": "2026-11-04T22:44:56+00:00",
    "location": "New York, New York",
-   "open": true,
+   "open": false,
    "posted": "2026-09-24",
    "priority": "low",
    "source": "Audax (Private Debt)",
@@ -2155,7 +2165,7 @@
    "priority": "low",
    "source": "Jefferies",
    "title": "2028 Investment Banking Summer Analyst Program – Boston, Industrials Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a3577d9b0da6/candidate/so/pm/1/pl/2/opp/2040-2028-Investment-Banking-Summer-Analyst-Program-Boston-Industrials-Group/en-GB"
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-23cc2dcaaa14/candidate/so/pm/1/pl/2/opp/2040-2028-Investment-Banking-Summer-Analyst-Program-Boston-Industrials-Group/en-GB"
   },
   "tal:Jefferies:2043": {
    "closed": null,
@@ -2168,7 +2178,7 @@
    "priority": "low",
    "source": "Jefferies",
    "title": "2028 Investment Banking Summer Analyst Program – Chicago, Industrials Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a3577d9b0da6/candidate/so/pm/1/pl/2/opp/2043-2028-Investment-Banking-Summer-Analyst-Program-Chicago-Industrials-Group/en-GB"
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-23cc2dcaaa14/candidate/so/pm/1/pl/2/opp/2043-2028-Investment-Banking-Summer-Analyst-Program-Chicago-Industrials-Group/en-GB"
   },
   "tal:Jefferies:2044": {
    "closed": null,
@@ -2181,7 +2191,7 @@
    "priority": "low",
    "source": "Jefferies",
    "title": "2028 Investment Banking Summer Analyst Program – Chicago, Mergers & Acquisitions Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a3577d9b0da6/candidate/so/pm/1/pl/2/opp/2044-2028-Investment-Banking-Summer-Analyst-Program-Chicago-Mergers-Acquisitions-Group/en-GB"
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-23cc2dcaaa14/candidate/so/pm/1/pl/2/opp/2044-2028-Investment-Banking-Summer-Analyst-Program-Chicago-Mergers-Acquisitions-Group/en-GB"
   },
   "tal:Jefferies:2045": {
    "closed": null,
@@ -2194,7 +2204,7 @@
    "priority": "low",
    "source": "Jefferies",
    "title": "2028 Investment Banking Summer Analyst Program – Charlotte, Technology, Media & Telecom Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a3577d9b0da6/candidate/so/pm/1/pl/2/opp/2045-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Technology-Media-Telecom-Group/en-GB"
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-23cc2dcaaa14/candidate/so/pm/1/pl/2/opp/2045-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Technology-Media-Telecom-Group/en-GB"
   },
   "tal:Jefferies:2046": {
    "closed": null,
@@ -2207,7 +2217,7 @@
    "priority": "low",
    "source": "Jefferies",
    "title": "2028 Investment Banking Summer Analyst Program – New York, Real Estate, Gaming & Lodging Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a3577d9b0da6/candidate/so/pm/1/pl/2/opp/2046-2028-Investment-Banking-Summer-Analyst-Program-New-York-Real-Estate-Gaming-Lodging-Group/en-GB"
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-23cc2dcaaa14/candidate/so/pm/1/pl/2/opp/2046-2028-Investment-Banking-Summer-Analyst-Program-New-York-Real-Estate-Gaming-Lodging-Group/en-GB"
   },
   "tal:Jefferies:2047": {
    "closed": null,
@@ -2220,7 +2230,7 @@
    "priority": "low",
    "source": "Jefferies",
    "title": "2028 Investment Banking Summer Analyst Program – Charlotte, Aerospace, Defense & Government Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a3577d9b0da6/candidate/so/pm/1/pl/2/opp/2047-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Aerospace-Defense-Government-Group/en-GB"
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-23cc2dcaaa14/candidate/so/pm/1/pl/2/opp/2047-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Aerospace-Defense-Government-Group/en-GB"
   },
   "tal:Jefferies:2048": {
    "closed": null,
@@ -2233,7 +2243,7 @@
    "priority": "low",
    "source": "Jefferies",
    "title": "2028 Investment Banking Summer Analyst Program – Charlotte, Consumer & Retail Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a3577d9b0da6/candidate/so/pm/1/pl/2/opp/2048-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Consumer-Retail-Group/en-GB"
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-23cc2dcaaa14/candidate/so/pm/1/pl/2/opp/2048-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Consumer-Retail-Group/en-GB"
   },
   "tal:Jefferies:2049": {
    "closed": null,
@@ -2246,7 +2256,7 @@
    "priority": "low",
    "source": "Jefferies",
    "title": "2028 Investment Banking Summer Analyst Program – Dallas, Secondary Advisory Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a3577d9b0da6/candidate/so/pm/1/pl/2/opp/2049-2028-Investment-Banking-Summer-Analyst-Program-Dallas-Secondary-Advisory-Group/en-GB"
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-23cc2dcaaa14/candidate/so/pm/1/pl/2/opp/2049-2028-Investment-Banking-Summer-Analyst-Program-Dallas-Secondary-Advisory-Group/en-GB"
   },
   "tal:Jefferies:2050": {
    "closed": null,
@@ -2259,7 +2269,7 @@
    "priority": "low",
    "source": "Jefferies",
    "title": "2028 Investment Banking Summer Analyst Program – New York, Private Fund Advisory Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a3577d9b0da6/candidate/so/pm/1/pl/2/opp/2050-2028-Investment-Banking-Summer-Analyst-Program-New-York-Private-Fund-Advisory-Group/en-GB"
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-23cc2dcaaa14/candidate/so/pm/1/pl/2/opp/2050-2028-Investment-Banking-Summer-Analyst-Program-New-York-Private-Fund-Advisory-Group/en-GB"
   },
   "tal:Jefferies:2051": {
    "closed": null,
@@ -2272,7 +2282,7 @@
    "priority": "low",
    "source": "Jefferies",
    "title": "2028 Investment Banking Summer Analyst Program – New York, Mergers & Acquisitions Strategic Advisory",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a3577d9b0da6/candidate/so/pm/1/pl/2/opp/2051-2028-Investment-Banking-Summer-Analyst-Program-New-York-Mergers-Acquisitions-Strategic-Advisory/en-GB"
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-23cc2dcaaa14/candidate/so/pm/1/pl/2/opp/2051-2028-Investment-Banking-Summer-Analyst-Program-New-York-Mergers-Acquisitions-Strategic-Advisory/en-GB"
   },
   "tal:Jefferies:2056": {
    "closed": null,
@@ -2416,6 +2426,19 @@
    "source": "Fidelity",
    "title": "Fidelity Center for Applied Technology (FCAT) Innovation Ecosystem, Europe Internship",
    "url": "https://fmr.wd1.myworkdayjobs.com/FidelityCareers/job/Dublin-Ireland/Fidelity-Center-for-Applied-Technology--FCAT--Innovation-Ecosystem--Europe-Internship_2137228-1"
+  },
+  "wd:godirect:JR0033386": {
+   "closed": null,
+   "firm": "Voya",
+   "fit": "no class year listed; check eligibility",
+   "found": "2026-11-06T20:32:31+00:00",
+   "location": "New York, NY",
+   "open": true,
+   "posted": "Posted Today",
+   "priority": "high",
+   "source": "Voya",
+   "title": "Summer Intern – Renewable Energy Infrastructure Debt",
+   "url": "https://godirect.wd5.myworkdayjobs.com/voya_jobs/job/New-York-NY/Summer-Intern---Renewable-Energy-Infrastructure-Debt_JR0033386"
   },
   "wd:invesco:R-15665": {
    "closed": null,
@@ -2600,25 +2623,25 @@
    "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Windsor-Ontario/Commercial-Banking-Intern---Co-Op_R_1503140"
   },
   "wd:tiaa:R261000123": {
-   "closed": "2026-11-06T00:05:04+00:00",
-   "firm": "Nuveen / TIAA",
-   "fit": "open to class of 2029",
-   "found": "2026-11-04T22:15:49+00:00",
-   "location": "2 Locations",
-   "open": false,
-   "posted": "Posted 24 Days Ago",
-   "priority": "low",
-   "source": "Nuveen / TIAA",
-   "title": "2027 Early Talent Internship: Internal Audit",
-   "url": "https://tiaa.wd1.myworkdayjobs.com/Search/job/Charlotte-NC-USA/XMLNAME-2027-Early-Talent-Internship--Internal-Audit_R261000123"
-  },
-  "wd:tiaa:R261000124": {
    "closed": null,
    "firm": "Nuveen / TIAA",
    "fit": "open to class of 2029",
    "found": "2026-11-04T22:15:49+00:00",
    "location": "3 Locations",
    "open": true,
+   "posted": "Posted Today",
+   "priority": "low",
+   "source": "Nuveen / TIAA",
+   "title": "2027 Early Talent Internship: Internal Audit",
+   "url": "https://tiaa.wd1.myworkdayjobs.com/Search/job/Charlotte-NC-USA/XMLNAME-2027-Early-Talent-Internship--Internal-Audit_R261000123"
+  },
+  "wd:tiaa:R261000124": {
+   "closed": "2026-11-06T20:32:31+00:00",
+   "firm": "Nuveen / TIAA",
+   "fit": "open to class of 2029",
+   "found": "2026-11-04T22:15:49+00:00",
+   "location": "3 Locations",
+   "open": false,
    "posted": "Posted 25 Days Ago",
    "priority": "low",
    "source": "Nuveen / TIAA",
@@ -3271,7 +3294,7 @@
   }
  },
  "week": {
-  "high": 2,
+  "high": 3,
   "low": 12,
   "medium": 0
  }
