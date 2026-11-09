@@ -1,6 +1,6 @@
 # Internship tracker
 
-_Updated 2026-11-08 23:57 UTC · watching 70 sources · ⚠️ 2 failing: Blackstone, Blackstone (campus)_
+_Updated 2026-11-09 06:02 UTC · watching 70 sources · ⚠️ 2 failing: Blackstone, Blackstone (campus)_
 
 ## 🎯 AM / ER / credit internships — open now (9)
 
@@ -23,21 +23,21 @@ _Updated 2026-11-08 23:57 UTC · watching 70 sources · ⚠️ 2 failing: Blacks
 | 2026-11-04 | Brookfield | [Intern, Global Client Group](https://brookfield.wd5.myworkdayjobs.com/brookfield/job/New-York-New-York/Intern--Global-Client-Group_R2053582) | New York, New York | no class year listed; check eligibility |
 | 2026-11-04 | Brookfield | [Intern, Private Wealth](https://brookfield.wd5.myworkdayjobs.com/brookfield/job/New-York-New-York/Intern--Private-Wealth_R2053547) | New York, New York | no class year listed; check eligibility |
 
-<details><summary><b>Lower priority (IB, tech, ops, events) — open now (88)</b></summary>
+<details><summary><b>Lower priority (IB, tech, ops, events) — open now (86)</b></summary>
 
 
 | Found | Firm | Role | Location | Who can apply |
 |---|---|---|---|---|
-| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Boston, Industrials Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-e3fdf0440562/candidate/so/pm/1/pl/2/opp/2040-2028-Investment-Banking-Summer-Analyst-Program-Boston-Industrials-Group/en-GB) |  | summer 2028 (after junior year) |
-| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Chicago, Industrials Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-e3fdf0440562/candidate/so/pm/1/pl/2/opp/2043-2028-Investment-Banking-Summer-Analyst-Program-Chicago-Industrials-Group/en-GB) |  | summer 2028 (after junior year) |
-| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Chicago, Mergers & Acquisitions Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-e3fdf0440562/candidate/so/pm/1/pl/2/opp/2044-2028-Investment-Banking-Summer-Analyst-Program-Chicago-Mergers-Acquisitions-Group/en-GB) |  | summer 2028 (after junior year) |
-| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Charlotte, Technology, Media & Telecom Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-e3fdf0440562/candidate/so/pm/1/pl/2/opp/2045-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Technology-Media-Telecom-Group/en-GB) |  | summer 2028 (after junior year) |
-| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – New York, Real Estate, Gaming & Lodging Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-e3fdf0440562/candidate/so/pm/1/pl/2/opp/2046-2028-Investment-Banking-Summer-Analyst-Program-New-York-Real-Estate-Gaming-Lodging-Group/en-GB) |  | summer 2028 (after junior year) |
-| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Charlotte, Aerospace, Defense & Government Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-e3fdf0440562/candidate/so/pm/1/pl/2/opp/2047-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Aerospace-Defense-Government-Group/en-GB) |  | summer 2028 (after junior year) |
-| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Charlotte, Consumer & Retail Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-e3fdf0440562/candidate/so/pm/1/pl/2/opp/2048-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Consumer-Retail-Group/en-GB) |  | summer 2028 (after junior year) |
-| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Dallas, Secondary Advisory Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-e3fdf0440562/candidate/so/pm/1/pl/2/opp/2049-2028-Investment-Banking-Summer-Analyst-Program-Dallas-Secondary-Advisory-Group/en-GB) |  | summer 2028 (after junior year) |
-| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – New York, Private Fund Advisory Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-e3fdf0440562/candidate/so/pm/1/pl/2/opp/2050-2028-Investment-Banking-Summer-Analyst-Program-New-York-Private-Fund-Advisory-Group/en-GB) |  | summer 2028 (after junior year) |
-| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – New York, Mergers & Acquisitions Strategic Advisory](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-e3fdf0440562/candidate/so/pm/1/pl/2/opp/2051-2028-Investment-Banking-Summer-Analyst-Program-New-York-Mergers-Acquisitions-Strategic-Advisory/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Boston, Industrials Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-8b177d64de1e/candidate/so/pm/1/pl/2/opp/2040-2028-Investment-Banking-Summer-Analyst-Program-Boston-Industrials-Group/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Chicago, Industrials Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-8b177d64de1e/candidate/so/pm/1/pl/2/opp/2043-2028-Investment-Banking-Summer-Analyst-Program-Chicago-Industrials-Group/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Chicago, Mergers & Acquisitions Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-8b177d64de1e/candidate/so/pm/1/pl/2/opp/2044-2028-Investment-Banking-Summer-Analyst-Program-Chicago-Mergers-Acquisitions-Group/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Charlotte, Technology, Media & Telecom Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-8b177d64de1e/candidate/so/pm/1/pl/2/opp/2045-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Technology-Media-Telecom-Group/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – New York, Real Estate, Gaming & Lodging Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-8b177d64de1e/candidate/so/pm/1/pl/2/opp/2046-2028-Investment-Banking-Summer-Analyst-Program-New-York-Real-Estate-Gaming-Lodging-Group/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Charlotte, Aerospace, Defense & Government Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-8b177d64de1e/candidate/so/pm/1/pl/2/opp/2047-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Aerospace-Defense-Government-Group/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Charlotte, Consumer & Retail Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-8b177d64de1e/candidate/so/pm/1/pl/2/opp/2048-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Consumer-Retail-Group/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Dallas, Secondary Advisory Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-8b177d64de1e/candidate/so/pm/1/pl/2/opp/2049-2028-Investment-Banking-Summer-Analyst-Program-Dallas-Secondary-Advisory-Group/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – New York, Private Fund Advisory Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-8b177d64de1e/candidate/so/pm/1/pl/2/opp/2050-2028-Investment-Banking-Summer-Analyst-Program-New-York-Private-Fund-Advisory-Group/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – New York, Mergers & Acquisitions Strategic Advisory](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-8b177d64de1e/candidate/so/pm/1/pl/2/opp/2051-2028-Investment-Banking-Summer-Analyst-Program-New-York-Mergers-Acquisitions-Strategic-Advisory/en-GB) |  | summer 2028 (after junior year) |
 | 2026-11-05 | Bank of America | [Global Investment Banking Summer Analyst Program 2028 - Energy](https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15270-Global-Investment-Banking-Summer-Analyst-Program-2028-Energy/en-GB) |  | summer 2028 (after junior year) |
 | 2026-11-04 | Audax (Private Debt) | [IT Operations Co-Op](https://job-boards.greenhouse.io/audaxgroup/jobs/4722750005) | Boston, MA | no class year listed; check eligibility |
 | 2026-11-04 | Audax (Private Debt) | [Investor Relations CO-OP](https://job-boards.greenhouse.io/audaxgroup/jobs/4726930005) | New York | no class year listed; check eligibility |
@@ -66,7 +66,6 @@ _Updated 2026-11-08 23:57 UTC · watching 70 sources · ⚠️ 2 failing: Blacks
 | 2026-11-04 | Lazard | [2028 Summer Analyst - Chicago Healthcare](https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6766) | Chicago, United States | summer 2028 (after junior year) |
 | 2026-11-04 | Lazard | [2028 Summer Analyst - New York Corporate Finance Advisory](https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6767) | New York, United States | summer 2028 (after junior year) |
 | 2026-11-04 | Lazard | [2028 Summer Analyst - New York M&A / Restructuring Generalist](https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6768) | New York, United States | summer 2028 (after junior year) |
-| 2026-11-04 | JPMorgan | [2028 Global Investment Banking Summer Analyst Program – Houston](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210805837) | Houston, TX, United States | summer 2028 (after junior year) |
 | 2026-11-04 | Bank of America | [Bank of America \| Early Insights Event](https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/2/opp/15242-Bank-of-America-Early-Insights-Event/en-GB) |  | for sophomores |
 | 2026-11-04 | Evercore | [2028 Evercore Summer Analyst Coffee Chats - Menlo Park Healthcare](https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3351-2028-Evercore-Summer-Analyst-Coffee-Chats-Menlo-Park-Healthcare/en-GB) |  | summer 2028 (after junior year) |
 | 2026-11-04 | Evercore | [2028 Evercore Summer Analyst Veteran Coffee Chats](https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3379-2028-Evercore-Summer-Analyst-Veteran-Coffee-Chats/en-GB) |  | summer 2028 (after junior year) |
@@ -75,7 +74,6 @@ _Updated 2026-11-08 23:57 UTC · watching 70 sources · ⚠️ 2 failing: Blacks
 | 2026-11-04 | Evercore | [2028 Summer Analyst Evercore Private Capital Advisory \| Georgetown Campus Visit](https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3495-2028-Summer-Analyst-Evercore-Private-Capital-Advisory-Georgetown-Campus-Visit/en-GB) |  | summer 2028 (after junior year) |
 | 2026-11-04 | Evercore | [2028 Summer Analyst Evercore Private Capital Advisory \| Duke Campus Visit](https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3497-2028-Summer-Analyst-Evercore-Private-Capital-Advisory-Duke-Campus-Visit/en-GB) |  | summer 2028 (after junior year) |
 | 2026-11-04 | Evercore | [2028 ISI Evercore Summer Analyst Virtual Open House - Equity Research and Sales & Trading](https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3501-2028-ISI-Evercore-Summer-Analyst-Virtual-Open-House-Equity-Research-and-Sales-Trading/en-GB) |  | summer 2028 (after junior year) |
-| 2026-11-04 | Evercore | [2028 Evercore Private Capital Advisory Summer Analyst Coffee Chats - Dartmouth College](https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3506-2028-Evercore-Private-Capital-Advisory-Summer-Analyst-Coffee-Chats-Dartmouth-College/en-GB) |  | summer 2028 (after junior year) |
 | 2026-11-04 | Jefferies | [2028 Investment Banking Summer Analyst Program – Houston, Energy Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1989-2028-Investment-Banking-Summer-Analyst-Program-Houston-Energy-Group/en-GB) |  | summer 2028 (after junior year) |
 | 2026-11-04 | Jefferies | [2028 Investment Banking Summer Analyst Program – Houston, Energy Transition Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2001-2028-Investment-Banking-Summer-Analyst-Program-Houston-Energy-Transition-Group/en-GB) |  | summer 2028 (after junior year) |
 | 2026-11-04 | Jefferies | [2028 Investment Banking Summer Analyst Program – New York, Municipals Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2028-2028-Investment-Banking-Summer-Analyst-Program-New-York-Municipals-Group/en-GB) |  | summer 2028 (after junior year) |
@@ -135,7 +133,7 @@ _Updated 2026-11-08 23:57 UTC · watching 70 sources · ⚠️ 2 failing: Blacks
 | Firm | System | Status | Matches open |
 |---|---|---|---|
 | Goldman Sachs | goldman | ✅ | 0 |
-| JPMorgan | oracle | ✅ | 1 |
+| JPMorgan | oracle | ✅ | 0 |
 | Morgan Stanley | workday | ✅ | 6 |
 | Bank of America | oleeo | ✅ | 2 |
 | Citi | workday | ✅ | 0 |
@@ -151,7 +149,7 @@ _Updated 2026-11-08 23:57 UTC · watching 70 sources · ⚠️ 2 failing: Blacks
 | Mizuho | workday | ✅ | 0 |
 | Nomura | oleeo | ✅ | 1 |
 | Jefferies | oleeo | ✅ | 22 |
-| Evercore | oleeo | ✅ | 8 |
+| Evercore | oleeo | ✅ | 7 |
 | Lazard | oracle | ✅ | 15 |
 | William Blair | greenhouse | ✅ | 0 |
 | Baird | workday | ✅ | 1 |
@@ -179,8 +177,8 @@ _Updated 2026-11-08 23:57 UTC · watching 70 sources · ⚠️ 2 failing: Blacks
 | Point72 | greenhouse | ✅ | 8 |
 | Millennium | eightfold | ✅ | 0 |
 | Schonfeld | greenhouse | ✅ | 0 |
-| Blackstone | workday | ⚠️ failing (2 runs): HTTPError: 401 Client Error: Unauthorized for url: https://blackstone.wd1.mywork | 0 |
-| Blackstone (campus) | workday | ⚠️ failing (2 runs): HTTPError: 401 Client Error: Unauthorized for url: https://blackstone.wd1.mywork | 0 |
+| Blackstone | workday | ⚠️ failing (3 runs): HTTPError: 401 Client Error: Unauthorized for url: https://blackstone.wd1.mywork | 0 |
+| Blackstone (campus) | workday | ⚠️ failing (3 runs): HTTPError: 401 Client Error: Unauthorized for url: https://blackstone.wd1.mywork | 0 |
 | Apollo | workday | ✅ | 0 |
 | Carlyle | workday | ✅ | 0 |
 | Bain Capital | workday | ✅ | 0 |
