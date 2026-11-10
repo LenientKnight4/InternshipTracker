@@ -35,11 +35,6 @@
    "source": "Audax (Private Debt)",
    "why": "no class year listed; check eligibility"
   },
-  "gh:audaxgroup:4737364005": {
-   "ok": true,
-   "source": "Audax (Private Debt)",
-   "why": "no class year listed; check eligibility"
-  },
   "gh:point72:7297642002": {
    "ok": false,
    "source": "Point72",
@@ -1300,11 +1295,6 @@
    "source": "Nuveen / TIAA",
    "why": "open to class of 2029"
   },
-  "wd:truist:R0121539": {
-   "ok": false,
-   "source": "Truist",
-   "why": "for class of 2027/2028"
-  },
   "wd:truist:R0121545": {
    "ok": false,
    "source": "Truist",
@@ -1411,12 +1401,12 @@
    "url": "https://job-boards.greenhouse.io/audaxgroup/jobs/4726930005"
   },
   "gh:audaxgroup:4737364005": {
-   "closed": null,
+   "closed": "2026-11-10T16:22:12+00:00",
    "firm": "Audax (Private Debt)",
    "fit": "no class year listed; check eligibility",
    "found": "2026-11-04T22:44:56+00:00",
    "location": "Boston, MA",
-   "open": true,
+   "open": false,
    "posted": "2026-09-23",
    "priority": "low",
    "source": "Audax (Private Debt)",
@@ -2110,7 +2100,7 @@
    "priority": "low",
    "source": "Jefferies",
    "title": "2028 Investment Banking Summer Analyst Program – Boston, Industrials Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-12311d10cee2/candidate/so/pm/1/pl/2/opp/2040-2028-Investment-Banking-Summer-Analyst-Program-Boston-Industrials-Group/en-GB"
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0a7c2aef827c/candidate/so/pm/1/pl/2/opp/2040-2028-Investment-Banking-Summer-Analyst-Program-Boston-Industrials-Group/en-GB"
   },
   "tal:Jefferies:2043": {
    "closed": null,
@@ -2123,7 +2113,7 @@
    "priority": "low",
    "source": "Jefferies",
    "title": "2028 Investment Banking Summer Analyst Program – Chicago or New York, Industrials Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-12311d10cee2/candidate/so/pm/1/pl/2/opp/2043-2028-Investment-Banking-Summer-Analyst-Program-Chicago-or-New-York-Industrials-Group/en-GB"
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0a7c2aef827c/candidate/so/pm/1/pl/2/opp/2043-2028-Investment-Banking-Summer-Analyst-Program-Chicago-or-New-York-Industrials-Group/en-GB"
   },
   "tal:Jefferies:2044": {
    "closed": null,
@@ -2136,7 +2126,7 @@
    "priority": "low",
    "source": "Jefferies",
    "title": "2028 Investment Banking Summer Analyst Program – Chicago, Mergers & Acquisitions Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-12311d10cee2/candidate/so/pm/1/pl/2/opp/2044-2028-Investment-Banking-Summer-Analyst-Program-Chicago-Mergers-Acquisitions-Group/en-GB"
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0a7c2aef827c/candidate/so/pm/1/pl/2/opp/2044-2028-Investment-Banking-Summer-Analyst-Program-Chicago-Mergers-Acquisitions-Group/en-GB"
   },
   "tal:Jefferies:2045": {
    "closed": null,
@@ -2149,7 +2139,7 @@
    "priority": "low",
    "source": "Jefferies",
    "title": "2028 Investment Banking Summer Analyst Program – Charlotte, Technology, Media & Telecom Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-12311d10cee2/candidate/so/pm/1/pl/2/opp/2045-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Technology-Media-Telecom-Group/en-GB"
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0a7c2aef827c/candidate/so/pm/1/pl/2/opp/2045-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Technology-Media-Telecom-Group/en-GB"
   },
   "tal:Jefferies:2046": {
    "closed": null,
@@ -2162,7 +2152,7 @@
    "priority": "low",
    "source": "Jefferies",
    "title": "2028 Investment Banking Summer Analyst Program – New York, Real Estate, Gaming & Lodging Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-12311d10cee2/candidate/so/pm/1/pl/2/opp/2046-2028-Investment-Banking-Summer-Analyst-Program-New-York-Real-Estate-Gaming-Lodging-Group/en-GB"
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0a7c2aef827c/candidate/so/pm/1/pl/2/opp/2046-2028-Investment-Banking-Summer-Analyst-Program-New-York-Real-Estate-Gaming-Lodging-Group/en-GB"
   },
   "tal:Jefferies:2047": {
    "closed": null,
@@ -2175,7 +2165,7 @@
    "priority": "low",
    "source": "Jefferies",
    "title": "2028 Investment Banking Summer Analyst Program – Charlotte, Aerospace, Defense & Government Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-12311d10cee2/candidate/so/pm/1/pl/2/opp/2047-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Aerospace-Defense-Government-Group/en-GB"
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0a7c2aef827c/candidate/so/pm/1/pl/2/opp/2047-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Aerospace-Defense-Government-Group/en-GB"
   },
   "tal:Jefferies:2048": {
    "closed": null,
@@ -2188,7 +2178,7 @@
    "priority": "low",
    "source": "Jefferies",
    "title": "2028 Investment Banking Summer Analyst Program – Charlotte, Consumer & Retail Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-12311d10cee2/candidate/so/pm/1/pl/2/opp/2048-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Consumer-Retail-Group/en-GB"
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0a7c2aef827c/candidate/so/pm/1/pl/2/opp/2048-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Consumer-Retail-Group/en-GB"
   },
   "tal:Jefferies:2049": {
    "closed": null,
@@ -2201,7 +2191,7 @@
    "priority": "low",
    "source": "Jefferies",
    "title": "2028 Investment Banking Summer Analyst Program – Dallas, Secondary Advisory Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-12311d10cee2/candidate/so/pm/1/pl/2/opp/2049-2028-Investment-Banking-Summer-Analyst-Program-Dallas-Secondary-Advisory-Group/en-GB"
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0a7c2aef827c/candidate/so/pm/1/pl/2/opp/2049-2028-Investment-Banking-Summer-Analyst-Program-Dallas-Secondary-Advisory-Group/en-GB"
   },
   "tal:Jefferies:2050": {
    "closed": null,
@@ -2214,7 +2204,7 @@
    "priority": "low",
    "source": "Jefferies",
    "title": "2028 Investment Banking Summer Analyst Program – New York, Private Fund Advisory Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-12311d10cee2/candidate/so/pm/1/pl/2/opp/2050-2028-Investment-Banking-Summer-Analyst-Program-New-York-Private-Fund-Advisory-Group/en-GB"
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0a7c2aef827c/candidate/so/pm/1/pl/2/opp/2050-2028-Investment-Banking-Summer-Analyst-Program-New-York-Private-Fund-Advisory-Group/en-GB"
   },
   "tal:Jefferies:2051": {
    "closed": null,
@@ -2227,7 +2217,7 @@
    "priority": "low",
    "source": "Jefferies",
    "title": "2028 Investment Banking Summer Analyst Program – New York, Mergers & Acquisitions Strategic Advisory",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-12311d10cee2/candidate/so/pm/1/pl/2/opp/2051-2028-Investment-Banking-Summer-Analyst-Program-New-York-Mergers-Acquisitions-Strategic-Advisory/en-GB"
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0a7c2aef827c/candidate/so/pm/1/pl/2/opp/2051-2028-Investment-Banking-Summer-Analyst-Program-New-York-Mergers-Acquisitions-Strategic-Advisory/en-GB"
   },
   "tal:Jefferies:2056": {
    "closed": null,
@@ -2288,7 +2278,7 @@
    "found": "2026-11-04T22:15:49+00:00",
    "location": "TX-Houston",
    "open": true,
-   "posted": "Posted 5 Days Ago",
+   "posted": "Posted 6 Days Ago",
    "priority": "low",
    "source": "Baird",
    "title": "Internship - Investment Banking Analyst, Energy (Summer 2028)",
@@ -2353,7 +2343,7 @@
    "found": "2026-11-04T22:15:49+00:00",
    "location": "San Francisco Office",
    "open": true,
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "priority": "high",
    "source": "Dodge & Cox",
    "title": "2028 Investment Associate Internship",
@@ -2379,7 +2369,7 @@
    "found": "2026-11-06T20:32:31+00:00",
    "location": "New York, NY",
    "open": true,
-   "posted": "Posted 3 Days Ago",
+   "posted": "Posted 4 Days Ago",
    "priority": "high",
    "source": "Voya",
    "title": "Summer Intern – Renewable Energy Infrastructure Debt",
@@ -2392,7 +2382,7 @@
    "found": "2026-11-04T22:15:49+00:00",
    "location": "Boston, Massachusetts",
    "open": true,
-   "posted": "Posted 24 Days Ago",
+   "posted": "Posted 25 Days Ago",
    "priority": "low",
    "source": "Invesco",
    "title": "Quantitative Intern - Portfolio Engineering and Analytics",
@@ -2444,7 +2434,7 @@
    "found": "2026-11-04T22:15:49+00:00",
    "location": "Rapid City, South Dakota, United States of America",
    "open": true,
-   "posted": "Posted 21 Days Ago",
+   "posted": "Posted 22 Days Ago",
    "priority": "low",
    "source": "Morgan Stanley",
    "title": "Intern",
@@ -2457,7 +2447,7 @@
    "found": "2026-11-04T22:15:49+00:00",
    "location": "Winter Park, Florida, United States of America",
    "open": true,
-   "posted": "Posted 21 Days Ago",
+   "posted": "Posted 22 Days Ago",
    "priority": "low",
    "source": "Morgan Stanley",
    "title": "Intern",
@@ -2470,7 +2460,7 @@
    "found": "2026-11-04T22:15:49+00:00",
    "location": "Oklahoma City, Oklahoma, United States of America",
    "open": true,
-   "posted": "Posted 17 Days Ago",
+   "posted": "Posted 18 Days Ago",
    "priority": "low",
    "source": "Morgan Stanley",
    "title": "Intern",
@@ -2496,7 +2486,7 @@
    "found": "2026-11-04T22:15:49+00:00",
    "location": "PERSIARAN IRC 2, IOI RESORT CITY IOI CITY TOWER ONE:PUTRAJAYA",
    "open": true,
-   "posted": "Posted 12 Days Ago",
+   "posted": "Posted 13 Days Ago",
    "priority": "low",
    "source": "RBC",
    "title": "Finance Intern, US Regulatory Reporting and Financial Control",
@@ -2509,7 +2499,7 @@
    "found": "2026-11-04T22:15:49+00:00",
    "location": "PERSIARAN IRC 2, IOI RESORT CITY IOI CITY TOWER ONE:PUTRAJAYA",
    "open": true,
-   "posted": "Posted 21 Days Ago",
+   "posted": "Posted 22 Days Ago",
    "priority": "low",
    "source": "RBC",
    "title": "Internship - Regulatory Reporting",
@@ -2522,7 +2512,7 @@
    "found": "2026-11-04T22:15:49+00:00",
    "location": "PERSIARAN IRC 2, IOI RESORT CITY IOI CITY TOWER ONE:PUTRAJAYA",
    "open": true,
-   "posted": "Posted 21 Days Ago",
+   "posted": "Posted 22 Days Ago",
    "priority": "low",
    "source": "RBC",
    "title": "Internship - Regulatory Reporting",
@@ -2535,7 +2525,7 @@
    "found": "2026-11-04T22:15:49+00:00",
    "location": "New York, New York, United States of America",
    "open": true,
-   "posted": "Posted 5 Days Ago",
+   "posted": "Posted 6 Days Ago",
    "priority": "low",
    "source": "RBC",
    "title": "2028 Capital Markets, Global Markets Origination Summer Analyst",
@@ -2548,7 +2538,7 @@
    "found": "2026-11-04T22:15:49+00:00",
    "location": "Boston, Massachusetts",
    "open": true,
-   "posted": "Posted 5 Days Ago",
+   "posted": "Posted 6 Days Ago",
    "priority": "high",
    "source": "State Street",
    "title": "State Street Investment Management - Global Leveraged Finance Intern - 2027 Summer",
@@ -2574,7 +2564,7 @@
    "found": "2026-11-04T22:15:49+00:00",
    "location": "3 Locations",
    "open": true,
-   "posted": "Posted 3 Days Ago",
+   "posted": "Posted 4 Days Ago",
    "priority": "low",
    "source": "Nuveen / TIAA",
    "title": "2027 Early Talent Internship: Internal Audit",
@@ -2626,7 +2616,7 @@
    "found": "2026-11-04T22:15:49+00:00",
    "location": "Houston, TX",
    "open": true,
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "priority": "low",
    "source": "Truist",
    "title": "2028 Truist Securities - Energy, Oil & Gas Investment Banking - Summer Analyst Program - Houston, TX",
@@ -2808,7 +2798,7 @@
    "found": "2026-11-04T22:15:49+00:00",
    "location": "HOUSTON, TX",
    "open": true,
-   "posted": "Posted 11 Days Ago",
+   "posted": "Posted 12 Days Ago",
    "priority": "low",
    "source": "Wells Fargo",
    "title": "2028 Investment Banking Summer Internship – Early Careers (Houston)",
