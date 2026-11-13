@@ -1,6 +1,6 @@
 # Internship tracker
 
-_Updated 2026-11-13 18:28 UTC · watching 70 sources · all sources OK_
+_Updated 2026-11-13 23:48 UTC · watching 70 sources · ⚠️ 14 failing: Morgan Stanley, Citi, Morningstar, Vanguard, T. Rowe Price, Wellington, American Century, Dodge & Cox, Apollo, Brookfield, Antares, PGIM, First Eagle, Voya_
 
 ## 🎯 AM / ER / credit internships — open now (9)
 
@@ -31,18 +31,17 @@ _Updated 2026-11-13 18:28 UTC · watching 70 sources · all sources OK_
 | 2026-11-12 | Nuveen / TIAA | [2027 Early Talent Internship: Marketing & Communications, Sports Sponsorships, Folds of Honor](https://tiaa.wd1.myworkdayjobs.com/Search/job/Charlotte-NC-USA/XMLNAME-2027-Early-Talent-Internship--Marketing---Communications--Sports-Sponsorships--Folds-of-Honor_R261000122-1) | 4 Locations | open to class of 2029 |
 | 2026-11-11 | Lazard | [2028 Summer Analyst - Lazard CL: New York Private Capital Advisory](https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6801) | New York, United States | summer 2028 (after junior year) |
 | 2026-11-10 | RBC | [2028 Capital Markets, Global Markets Sales & Trading Summer Analyst](https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Capital-Markets--Global-Markets-Sales---Trading-Analyst_R-0000191757) | New York, New York, United States of America | summer 2028 (after junior year) |
-| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Boston, Industrials Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-f3b3288265f8/candidate/so/pm/1/pl/2/opp/2040-2028-Investment-Banking-Summer-Analyst-Program-Boston-Industrials-Group/en-GB) |  | summer 2028 (after junior year) |
-| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Chicago or New York, Industrials Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-f3b3288265f8/candidate/so/pm/1/pl/2/opp/2043-2028-Investment-Banking-Summer-Analyst-Program-Chicago-or-New-York-Industrials-Group/en-GB) |  | summer 2028 (after junior year) |
-| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Chicago, Mergers & Acquisitions Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-f3b3288265f8/candidate/so/pm/1/pl/2/opp/2044-2028-Investment-Banking-Summer-Analyst-Program-Chicago-Mergers-Acquisitions-Group/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Boston, Industrials Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0dea75ff244e/candidate/so/pm/1/pl/2/opp/2040-2028-Investment-Banking-Summer-Analyst-Program-Boston-Industrials-Group/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Chicago or New York, Industrials Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0dea75ff244e/candidate/so/pm/1/pl/2/opp/2043-2028-Investment-Banking-Summer-Analyst-Program-Chicago-or-New-York-Industrials-Group/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Chicago, Mergers & Acquisitions Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0dea75ff244e/candidate/so/pm/1/pl/2/opp/2044-2028-Investment-Banking-Summer-Analyst-Program-Chicago-Mergers-Acquisitions-Group/en-GB) |  | summer 2028 (after junior year) |
 | 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Charlotte, Technology, Media & Telecom Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2045-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Technology-Media-Telecom-Group/en-GB) |  | summer 2028 (after junior year) |
-| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – New York, Real Estate, Gaming & Lodging Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-f3b3288265f8/candidate/so/pm/1/pl/2/opp/2046-2028-Investment-Banking-Summer-Analyst-Program-New-York-Real-Estate-Gaming-Lodging-Group/en-GB) |  | summer 2028 (after junior year) |
-| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Charlotte, Aerospace, Defense & Government Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-f3b3288265f8/candidate/so/pm/1/pl/2/opp/2047-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Aerospace-Defense-Government-Group/en-GB) |  | summer 2028 (after junior year) |
-| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Charlotte, Consumer & Retail Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-f3b3288265f8/candidate/so/pm/1/pl/2/opp/2048-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Consumer-Retail-Group/en-GB) |  | summer 2028 (after junior year) |
-| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Dallas, Secondary Advisory Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-f3b3288265f8/candidate/so/pm/1/pl/2/opp/2049-2028-Investment-Banking-Summer-Analyst-Program-Dallas-Secondary-Advisory-Group/en-GB) |  | summer 2028 (after junior year) |
-| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – New York, Private Fund Advisory Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-f3b3288265f8/candidate/so/pm/1/pl/2/opp/2050-2028-Investment-Banking-Summer-Analyst-Program-New-York-Private-Fund-Advisory-Group/en-GB) |  | summer 2028 (after junior year) |
-| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – New York, Mergers & Acquisitions Strategic Advisory](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-f3b3288265f8/candidate/so/pm/1/pl/2/opp/2051-2028-Investment-Banking-Summer-Analyst-Program-New-York-Mergers-Acquisitions-Strategic-Advisory/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – New York, Real Estate, Gaming & Lodging Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0dea75ff244e/candidate/so/pm/1/pl/2/opp/2046-2028-Investment-Banking-Summer-Analyst-Program-New-York-Real-Estate-Gaming-Lodging-Group/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Charlotte, Aerospace, Defense & Government Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0dea75ff244e/candidate/so/pm/1/pl/2/opp/2047-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Aerospace-Defense-Government-Group/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Charlotte, Consumer & Retail Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0dea75ff244e/candidate/so/pm/1/pl/2/opp/2048-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Consumer-Retail-Group/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Dallas, Secondary Advisory Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0dea75ff244e/candidate/so/pm/1/pl/2/opp/2049-2028-Investment-Banking-Summer-Analyst-Program-Dallas-Secondary-Advisory-Group/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – New York, Private Fund Advisory Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0dea75ff244e/candidate/so/pm/1/pl/2/opp/2050-2028-Investment-Banking-Summer-Analyst-Program-New-York-Private-Fund-Advisory-Group/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – New York, Mergers & Acquisitions Strategic Advisory](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0dea75ff244e/candidate/so/pm/1/pl/2/opp/2051-2028-Investment-Banking-Summer-Analyst-Program-New-York-Mergers-Acquisitions-Strategic-Advisory/en-GB) |  | summer 2028 (after junior year) |
 | 2026-11-04 | Audax (Private Debt) | [IT Operations Co-Op](https://job-boards.greenhouse.io/audaxgroup/jobs/4722750005) | Boston, MA | no class year listed; check eligibility |
-| 2026-11-04 | Audax (Private Debt) | [Investor Relations CO-OP](https://job-boards.greenhouse.io/audaxgroup/jobs/4726930005) | New York | no class year listed; check eligibility |
 | 2026-11-04 | TPG / Angelo Gordon | [Y Analytics, Health and Social Impact, Spring Research Assistant, Internship](https://job-boards.greenhouse.io/tpgcareers/jobs/8036092003) | Remote | no class year listed; check eligibility |
 | 2026-11-04 | TPG / Angelo Gordon | [Y Analytics, Responsible Investing, Summer Research Assistant, Internship](https://job-boards.greenhouse.io/tpgcareers/jobs/8036208003) | Remote | no class year listed; check eligibility |
 | 2026-11-04 | Stifel | [Branch Intern](https://careers-stifel.icims.com/jobs/10095/branch-intern/job) |  | no class year listed; check eligibility |
@@ -92,6 +91,7 @@ _Updated 2026-11-13 18:28 UTC · watching 70 sources · all sources OK_
 | 2026-11-04 | RBC | [Internship - Regulatory Reporting](https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/PERSIARAN-IRC-2-IOI-RESORT-CITY-IOI-CITY-TOWER-ONEPUTRAJAYA/Internship---Regulatory-Reporting_R-0000190146) | PERSIARAN IRC 2, IOI RESORT CITY IOI CITY TOWER ONE:PUTRAJAY | no class year listed; check eligibility |
 | 2026-11-04 | RBC | [Internship - Regulatory Reporting](https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/PERSIARAN-IRC-2-IOI-RESORT-CITY-IOI-CITY-TOWER-ONEPUTRAJAYA/Internship---Regulatory-Reporting_R-0000190165-2) | PERSIARAN IRC 2, IOI RESORT CITY IOI CITY TOWER ONE:PUTRAJAY | no class year listed; check eligibility |
 | 2026-11-04 | RBC | [2028 Capital Markets, Global Markets Origination Summer Analyst](https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Capital-Markets--Global-Markets-Origination-Summer-Analyst_R-0000191762) | New York, New York, United States of America | summer 2028 (after junior year) |
+| 2026-11-04 | Nuveen / TIAA | [2027 Early Talent Internship: Risk & Compliance](https://tiaa.wd1.myworkdayjobs.com/Search/job/Charlotte-NC-USA/XMLNAME-2027-Early-Talent-Internship--Risk---Compliance_R261000124) | 3 Locations | open to class of 2029 |
 | 2026-11-04 | Truist | [2028 Truist Securities - Energy, Oil & Gas Investment Banking - Summer Analyst Program - Houston, TX](https://truist.wd1.myworkdayjobs.com/Careers/job/Houston-TX/XMLNAME-2028-Truist-Securities---Energy--Oil---Gas-Investment-Banking---Summer-Analyst-Program---Houston--TX_R0121314-1) | Houston, TX | summer 2028 (after junior year) |
 | 2026-11-04 | Vanguard | [College to Corporate IT Internship - Risk & Security - Analyst  (PA)](https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship---Risk---Security---Analyst---PA-_181762) | Malvern, PA | no class year listed; check eligibility |
 | 2026-11-04 | Vanguard | [College to Corporate IT Internship - Risk & Security - Analyst  (NC)](https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Charlotte-NC/College-to-Corporate-IT-Internship---Risk---Security---Analyst---NC-_181764) | Charlotte, NC | no class year listed; check eligibility |
@@ -128,9 +128,9 @@ _Updated 2026-11-13 18:28 UTC · watching 70 sources · all sources OK_
 |---|---|---|---|
 | Goldman Sachs | goldman | ✅ | 0 |
 | JPMorgan | oracle | ✅ | 0 |
-| Morgan Stanley | workday | ✅ | 5 |
+| Morgan Stanley | workday | ⚠️ failing (1 runs): HTTPError: 521 Server Error: <none> for url: https://ms.wd5.myworkdayjobs.com/wd | 5 |
 | Bank of America | oleeo | ✅ | 1 |
-| Citi | workday | ✅ | 0 |
+| Citi | workday | ⚠️ failing (1 runs): HTTPError: 521 Server Error: <none> for url: https://citi.wd5.myworkdayjobs.com/ | 0 |
 | Wells Fargo | workday | ✅ | 1 |
 | Barclays | workday | ✅ | 0 |
 | Deutsche Bank | workday | ✅ | 0 |
@@ -150,21 +150,21 @@ _Updated 2026-11-13 18:28 UTC · watching 70 sources · all sources OK_
 | Raymond James | workday | ✅ | 0 |
 | Stifel | icims | ✅ | 1 |
 | Truist | workday | ✅ | 1 |
-| Morningstar | workday | ✅ | 0 |
+| Morningstar | workday | ⚠️ failing (1 runs): HTTPError: 521 Server Error: <none> for url: https://morningstar.wd5.myworkdayjo | 0 |
 | BlackRock | workday | ✅ | 0 |
-| Vanguard | workday | ✅ | 13 |
+| Vanguard | workday | ⚠️ failing (1 runs): HTTPError: 521 Server Error: <none> for url: https://vanguard.wd5.myworkdayjobs. | 13 |
 | Fidelity | workday | ✅ | 0 |
 | Capital Group | workday | ✅ | 0 |
-| T. Rowe Price | workday | ✅ | 0 |
-| Wellington | workday | ✅ | 0 |
+| T. Rowe Price | workday | ⚠️ failing (1 runs): HTTPError: 521 Server Error: <none> for url: https://troweprice.wd5.myworkdayjob | 0 |
+| Wellington | workday | ⚠️ failing (1 runs): HTTPError: 521 Server Error: <none> for url: https://wellington.wd5.myworkdayjob | 0 |
 | PIMCO | workday | ✅ | 0 |
 | Invesco | workday | ✅ | 1 |
 | Franklin Templeton | phenom | ✅ | 0 |
 | AllianceBernstein | workday | ✅ | 0 |
 | Neuberger Berman | workday | ✅ | 0 |
-| Nuveen / TIAA | workday | ✅ | 1 |
-| American Century | workday | ✅ | 1 |
-| Dodge & Cox | workday | ✅ | 1 |
+| Nuveen / TIAA | workday | ✅ | 2 |
+| American Century | workday | ⚠️ failing (1 runs): HTTPError: 521 Server Error: <none> for url: https://americancentury.wd5.myworkd | 1 |
+| Dodge & Cox | workday | ⚠️ failing (1 runs): HTTPError: 521 Server Error: <none> for url: https://dodgeandcox.wd5.myworkdayjo | 1 |
 | Artisan Partners | greenhouse | ✅ | 0 |
 | Harris / Oakmark | greenhouse | ✅ | 0 |
 | AQR | greenhouse | ✅ | 0 |
@@ -173,11 +173,11 @@ _Updated 2026-11-13 18:28 UTC · watching 70 sources · all sources OK_
 | Schonfeld | greenhouse | ✅ | 0 |
 | Blackstone | workday | ✅ | 0 |
 | Blackstone (campus) | workday | ✅ | 0 |
-| Apollo | workday | ✅ | 0 |
+| Apollo | workday | ⚠️ failing (1 runs): HTTPError: 521 Server Error: <none> for url: https://athene.wd5.myworkdayjobs.co | 0 |
 | Carlyle | workday | ✅ | 0 |
 | Bain Capital | workday | ✅ | 0 |
 | TPG / Angelo Gordon | greenhouse | ✅ | 2 |
-| Brookfield | workday | ✅ | 2 |
+| Brookfield | workday | ⚠️ failing (1 runs): HTTPError: 521 Server Error: <none> for url: https://brookfield.wd5.myworkdayjob | 2 |
 | Hamilton Lane | workday | ✅ | 0 |
 | Ares | workday | ✅ | 0 |
 | Blue Owl | workday | ✅ | 0 |
@@ -185,17 +185,17 @@ _Updated 2026-11-13 18:28 UTC · watching 70 sources · all sources OK_
 | Sixth Street | workday | ✅ | 0 |
 | HPS | greenhouse | ✅ | 0 |
 | OHA (Oak Hill Advisors) | greenhouse | ✅ | 1 |
-| Antares | workday | ✅ | 0 |
+| Antares | workday | ⚠️ failing (1 runs): HTTPError: 521 Server Error: <none> for url: https://antares.wd5.myworkdayjobs.c | 0 |
 | Fortress | workday | ✅ | 0 |
 | Cerberus | workday | ✅ | 0 |
-| Audax (Private Debt) | greenhouse | ✅ | 2 |
+| Audax (Private Debt) | greenhouse | ✅ | 1 |
 | Marathon Asset Management | icims | ✅ | 0 |
 | TCW | icims | ✅ | 0 |
 | Barings | workday | ✅ | 0 |
-| PGIM | workday | ✅ | 0 |
+| PGIM | workday | ⚠️ failing (1 runs): HTTPError: 521 Server Error: <none> for url: https://pru.wd5.myworkdayjobs.com/w | 0 |
 | Guggenheim | workday | ✅ | 0 |
-| First Eagle | workday | ✅ | 0 |
-| Voya | workday | ✅ | 1 |
+| First Eagle | workday | ⚠️ failing (1 runs): HTTPError: 521 Server Error: <none> for url: https://fei.wd5.myworkdayjobs.com/w | 0 |
+| Voya | workday | ⚠️ failing (1 runs): HTTPError: 521 Server Error: <none> for url: https://godirect.wd5.myworkdayjobs. | 1 |
 
 ## Check by hand (no public feed)
 
