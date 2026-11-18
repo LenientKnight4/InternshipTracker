@@ -24,20 +24,22 @@ def _table(rows, closed=False):
     return "\n".join(lines) + "\n"
 
 
-def render(state, sources, manual, now, cutoff_30d):
+def render(state, sources, manual, names, now, cutoff_30d):
+    """names (from filters.yaml "dashboard") can override the title and section labels."""
+    label = {**LABEL, **{k: v for k, v in names.items() if k in LABEL}}
     jobs = sorted(state["jobs"].values(), key=lambda j: j["found"], reverse=True)
-    opened = {p: [j for j in jobs if j["open"] and j["priority"] == p] for p in LABEL}
+    opened = {p: [j for j in jobs if j["open"] and j["priority"] == p] for p in label}
     closed = [j for j in jobs if not j["open"] and j["priority"] != "low" and (j.get("closed") or "") >= cutoff_30d]
     health = state["sources"]
     failing = [s["name"] for s in sources if health.get(s["name"], {}).get("failures", 0) > 0]
 
-    out = [f"# Internship tracker\n",
+    out = [f"# {names.get('title', 'Internship tracker')}\n",
            f"_Updated {now[:16].replace('T', ' ')} UTC · watching {len(sources)} sources"
            + (f" · ⚠️ {len(failing)} failing: {', '.join(failing)}" if failing else " · all sources OK") + "_\n"]
 
-    out += [f"## {LABEL['high']} ({len(opened['high'])})\n", _table(opened["high"])]
-    out += [f"## {LABEL['medium']} ({len(opened['medium'])})\n", _table(opened["medium"])]
-    out += [f"<details><summary><b>{LABEL['low']} ({len(opened['low'])})</b></summary>\n\n", _table(opened["low"]), "\n</details>\n"]
+    out += [f"## {label['high']} ({len(opened['high'])})\n", _table(opened["high"])]
+    out += [f"## {label['medium']} ({len(opened['medium'])})\n", _table(opened["medium"])]
+    out += [f"<details><summary><b>{label['low']} ({len(opened['low'])})</b></summary>\n\n", _table(opened["low"]), "\n</details>\n"]
     out += [f"<details><summary><b>Closed in the last 30 days ({len(closed)})</b></summary>\n\n",
             _table(closed, closed=True), "\n</details>\n"]
 

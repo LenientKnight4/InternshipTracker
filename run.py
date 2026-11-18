@@ -1,4 +1,4 @@
-"""Internship tracker: checks every firm in firms.yaml, alerts on new AM/ER
+"""Internship tracker: checks every firm in firms.yaml, alerts on new matching
 internships, and rewrites JOBS.md.
 
   python run.py                 normal run (what GitHub Actions does)
@@ -28,6 +28,7 @@ FAIL_ALERT_AFTER = 3          # consecutive failed runs before you get a "source
 MAX_SINGLE_PUSHES = 8         # more new matches than this in one run -> one combined push
 RANK = {"low": 0, "medium": 1, "high": 2}
 HEARTBEAT_EVERY = timedelta(days=7)
+RUN_DEADLINE = 11 * 60         # seconds; sites still not done by then are skipped so GitHub's 15-minute limit isn't hit
 
 
 def load_yaml(name):
@@ -66,18 +67,22 @@ def fetch(src, terms, matcher, known):
         prio = matcher.classify(job, src.get("kind", "bank"))
         fit = None
         if prio is not None:
+            vague_place = matcher.location_status(job) == "maybe"
             verdict = matcher.fit(job)
-            if verdict:
+            if verdict and not vague_place:
                 fit = {"ok": verdict[0], "why": verdict[1], "cache": False}
             elif job.key in known:
                 fit = {**known[job.key], "cache": True}
             else:
                 try:
-                    ok, why = matcher.fit(job, describe(src, job))
+                    desc = describe(src, job)
+                    ok, why = verdict or matcher.fit(job, desc)
+                    if ok and vague_place and not matcher.place_in(desc):
+                        ok, why = False, f"not in {matcher.only_label}"
                     fit = {"ok": ok, "why": why, "cache": True}
                 except Exception:  # couldn't read the description; decide from the title, retry next run
-                    ok, why = matcher.fit(job, "")
-                    fit = {"ok": ok, "why": why, "cache": False}
+                    ok, why = verdict or matcher.fit(job, "")
+                    fit = {"ok": ok and not vague_place, "why": why, "cache": False}
         out.append((job, prio, fit))
     return src, out, None
 
@@ -87,7 +92,7 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--only")
     ap.add_argument("--test-push", action="store_true")
-    ap.add_argument("--sync-sheet", action="store_true", help="send every open AM/ER + related posting to the sheet")
+    ap.add_argument("--sync-sheet", action="store_true", help="send every open top-priority + related posting to the sheet")
     args = ap.parse_args()
 
     if args.test_push:
@@ -99,6 +104,7 @@ def main():
     firms = load_yaml("firms.yaml")
     sources = firms["sources"]
     matcher = Matcher(filters)
+    label = filters.get("alert_label", "AM/ER/credit")  # wording used in phone alerts
     terms = list(dict.fromkeys(filters["search_terms"] + sorted(matcher.years)))
 
     state = load_state()
@@ -119,8 +125,12 @@ def main():
     newly_seeded = []          # (source name, jobs) for sources checked for the first time
     failing_alerts, recoveries = [], []
 
-    with cf.ThreadPoolExecutor(max_workers=16) as ex:
-        results = list(ex.map(lambda s: fetch(s, terms, matcher, dict(known)), todo))
+    ex = cf.ThreadPoolExecutor(max_workers=16)
+    futures = {ex.submit(fetch, s, terms, matcher, dict(known)): s for s in todo}
+    done, _ = cf.wait(futures, timeout=RUN_DEADLINE)
+    results = [f.result() if f in done else (s, None, f"didn't finish within {RUN_DEADLINE // 60} minutes")
+               for f, s in futures.items()]
+    ex.shutdown(wait=False, cancel_futures=True)
 
     for src, found, err in results:
         name = src["name"]
@@ -190,7 +200,7 @@ def main():
         md = [j for j in open_jobs if j["priority"] == "medium"]
         top = "\n".join(f"• {j['firm']}: {j['title']}" for j in hi[:10])
         push("Internship tracker is live",
-             f"{len(hi)} AM/ER/credit internships and {len(md)} related internships are open right now."
+             f"{len(hi)} {label} internships and {len(md)} related internships are open right now."
              + (f"\n{top}" if top else "") + "\nOpen the dashboard for the full list.",
              priority=4, url=dash, tags=["rocket"], dry_run=args.dry_run)
         state["initialized"] = True
@@ -201,23 +211,23 @@ def main():
             hi = [r for r in seeded if r["priority"] == "high"]
             push(f"Now watching {len(newly_seeded)} more firms",
                  ", ".join(n for n, _ in newly_seeded)
-                 + f"\n{len(hi)} AM/ER/credit and {len(seeded) - len(hi)} other internships open there now."
+                 + f"\n{len(hi)} {label} and {len(seeded) - len(hi)} other internships open there now."
                  + "".join(f"\n• {r['firm']}: {r['title']}" for r in hi[:10]),
                  priority=3, url=dash, tags=["eyes"], dry_run=args.dry_run)
         else:
             for name, rs in newly_seeded:
                 hi = [r for r in rs if r["priority"] == "high"]
                 push(f"Now watching {name}",
-                     f"{len(hi)} AM/ER/credit and {len(rs) - len(hi)} other internships currently open there.",
+                     f"{len(hi)} {label} and {len(rs) - len(hi)} other internships currently open there.",
                      priority=3, url=dash, tags=["eyes"], dry_run=args.dry_run)
 
         hi = new_by_prio["high"]
         if len(hi) <= MAX_SINGLE_PUSHES:
             for r in hi:
-                push(f"{r['firm']}: new AM/ER/credit internship", f"{r['title']}\n{r['location']}",
+                push(f"{r['firm']}: new {label} internship", f"{r['title']}\n{r['location']}",
                      priority=5, url=r["url"], tags=["rotating_light"], dry_run=args.dry_run)
         else:
-            push(f"{len(hi)} new AM/ER/credit internships",
+            push(f"{len(hi)} new {label} internships",
                  "\n".join(f"• {r['firm']}: {r['title']}" for r in hi[:25]),
                  priority=5, url=dash, tags=["rotating_light"], dry_run=args.dry_run)
         md = new_by_prio["medium"]
@@ -237,9 +247,13 @@ def main():
             push(f"Tracker can't check {name}",
                  f"Failed {FAIL_ALERT_AFTER} runs in a row: {err}\nCheck that firm by hand until it recovers.",
                  priority=3, url=dash, tags=["warning"], dry_run=args.dry_run)
-    for name in recoveries:
-        push(f"{name} is back", "The tracker can check this firm again.", priority=2, tags=["white_check_mark"],
-             dry_run=args.dry_run)
+    if len(recoveries) > 3:
+        push(f"{len(recoveries)} firms are back", "The tracker can check these again: " + ", ".join(recoveries),
+             priority=2, tags=["white_check_mark"], dry_run=args.dry_run)
+    else:
+        for name in recoveries:
+            push(f"{name} is back", "The tracker can check this firm again.", priority=2, tags=["white_check_mark"],
+                 dry_run=args.dry_run)
 
     last_hb = state.get("last_heartbeat")
     if last_hb and now_dt - datetime.fromisoformat(last_hb) >= HEARTBEAT_EVERY:
@@ -247,8 +261,8 @@ def main():
         open_hi = sum(1 for j in state["jobs"].values() if j["open"] and j["priority"] == "high")
         w = state["week"]
         push("Weekly tracker check-in",
-             f"Watching {len(sources)} sources. This week: {w['high']} new AM/ER/credit, {w['medium']} related, "
-             f"{w['low']} low-priority. {open_hi} AM/ER/credit internships open now."
+             f"Watching {len(sources)} sources. This week: {w['high']} new {label}, {w['medium']} related, "
+             f"{w['low']} low-priority. {open_hi} {label} internships open now."
              + (f"\nFailing: {', '.join(failing)}" if failing else "\nAll sources OK."),
              priority=2, url=dash, tags=["calendar"], dry_run=args.dry_run)
         state["last_heartbeat"] = now
@@ -264,7 +278,7 @@ def main():
     if after != before or not DASHBOARD.exists():
         STATE_FILE.parent.mkdir(exist_ok=True)
         STATE_FILE.write_text(json.dumps(state, sort_keys=True, indent=1, ensure_ascii=False) + "\n")
-        DASHBOARD.write_text(render(state, sources, firms.get("manual", []), now,
+        DASHBOARD.write_text(render(state, sources, firms.get("manual", []), filters.get("dashboard", {}), now,
                                     (now_dt - timedelta(days=30)).isoformat()))
         print("state and dashboard updated")
     else:
@@ -272,4 +286,6 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    code = main()
+    sys.stdout.flush()
+    os._exit(code or 0)  # exit now even if a site never answered (its thread would otherwise keep us waiting)

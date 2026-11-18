@@ -10,6 +10,7 @@ class years can apply.
 import html
 import json
 import re
+import threading
 import time
 from dataclasses import dataclass
 from urllib.parse import quote, urljoin
@@ -74,6 +75,51 @@ def _json(r):
         raise SourceError("response was not JSON (site format may have changed)") from None
 
 
+class _Throttle:
+    """Workday limits how many requests it accepts from GitHub's shared servers, so all
+    Workday requests go one at a time, spaced out. A 429 ("too many requests") pauses
+    every Workday request for a while; if Workday keeps refusing, the rest of this run's
+    Workday checks fail fast instead of waiting forever."""
+
+    def __init__(self, interval, pauses=(30, 60, 120)):
+        self.lock = threading.Lock()
+        self.interval = interval
+        self.pauses = pauses
+        self.next_ok = 0.0
+        self.blocked = False
+
+    def request(self, s, method, url, **kw):
+        for attempt in range(len(self.pauses) + 1):
+            with self.lock:  # held while pausing, so a 429 pauses every Workday check at once
+                if self.blocked:
+                    raise SourceError("HTTP 429: Workday is refusing requests from this server right now")
+                time.sleep(max(0.0, self.next_ok - time.time()))
+                started = time.time()  # space requests by start time, so slow responses don't add up
+                try:
+                    r = s.request(method, url, timeout=TIMEOUT, **kw)
+                except requests.RequestException as e:
+                    self.next_ok = started + self.interval
+                    if attempt == len(self.pauses):
+                        raise SourceError(f"{type(e).__name__}: {e}"[:200]) from None
+                    continue
+                if r.status_code != 429:
+                    self.next_ok = started + self.interval
+                    break
+                if attempt == len(self.pauses):
+                    self.blocked = True
+                    raise SourceError("HTTP 429: Workday is refusing requests from this server right now")
+                retry_after = r.headers.get("Retry-After", "")
+                pause = min(max(self.pauses[attempt], int(retry_after) if retry_after.isdigit() else 0), 120)
+                print(f"Workday said too many requests; pausing all Workday checks {pause}s ({url.split('/')[2]})", flush=True)
+                self.next_ok = time.time() + pause
+        if r.status_code >= 400:
+            raise SourceError(f"HTTP {r.status_code} from Workday")
+        return r
+
+
+WORKDAY = _Throttle(interval=1.5)
+
+
 # --- Workday (most asset managers and many banks) ---------------------------
 
 def workday(src, terms):
@@ -82,11 +128,12 @@ def workday(src, terms):
     api = f"{base}/wday/cxs/{t}/{site}/jobs"
     s = _session()
     jobs = {}
-    for q in terms:
+    # Year searches ("2027") never found anything extra on Workday, so skip them to stay under its limit
+    for q in [t for t in terms if not t.isdigit()] or terms:
         offset, total = 0, None
         while True:
             body = {"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": q}
-            data = _json(_request(s, "POST", api, json=body))
+            data = _json(WORKDAY.request(s, "POST", api, json=body))
             if "jobPostings" not in data:
                 raise SourceError("unexpected Workday response")
             if total is None:  # Workday only reports the total on the first page
@@ -104,7 +151,6 @@ def workday(src, terms):
             offset += 20
             if not posts or offset >= min(total, MAX_RESULTS_PER_QUERY):
                 break
-            time.sleep(0.3)
     return list(jobs.values())
 
 
@@ -255,25 +301,81 @@ def icims(src, terms):
 # --- Phenom career sites (Franklin Templeton) -------------------------------
 
 def phenom(src, terms):
-    # Phenom's server-rendered page ignores the keyword, so walk the full list once.
+    # Some Phenom sites ignore the search keyword; for those (the default) walk the full list once.
+    # Big sites that do honor it get keyword_search: true in firms.yaml.
     base = src["base"].rstrip("/")
     s = _session()
-    jobs, frm = {}, 0
-    while True:
-        r = _request(s, "GET", f"{base}/search-results?from={frm}&s=1")
-        m = re.search(r"phApp\.ddo\s*=\s*(\{.*?\});\s*phApp\.", r.text, re.S)
-        if not m:
-            raise SourceError("could not find job data on Phenom page")
-        res = json.loads(m.group(1)).get("eagerLoadRefineSearch") or {}
-        found = (res.get("data") or {}).get("jobs") or []
-        for j in found:
-            key = f"phenom:{base}:{j['jobId']}"
-            jobs[key] = Job(key, src["name"], j.get("title", "").strip(), f"{base}/job/{j['jobId']}",
-                            j.get("location") or j.get("cityStateCountry", ""), (j.get("postedDate") or "")[:10])
-        frm += len(found)
-        if not found or frm >= min(res.get("totalHits") or 0, 1000):
-            break
-        time.sleep(0.2)
+    jobs = {}
+    for q in (terms if src.get("keyword_search") else [None]):
+        frm = 0
+        while True:
+            kw = f"keywords={quote(q)}&" if q else ""
+            r = _request(s, "GET", f"{base}/search-results?{kw}from={frm}&s=1")
+            m = re.search(r"phApp\.ddo\s*=\s*(\{.*?\});\s*phApp\.", r.text, re.S)
+            if not m:
+                raise SourceError("could not find job data on Phenom page")
+            res = json.loads(m.group(1)).get("eagerLoadRefineSearch") or {}
+            found = (res.get("data") or {}).get("jobs") or []
+            for j in found:
+                key = f"phenom:{base}:{j['jobId']}"
+                jobs[key] = Job(key, src["name"], j.get("title", "").strip(), f"{base}/job/{j['jobId']}",
+                                j.get("location") or j.get("cityStateCountry", ""), (j.get("postedDate") or "")[:10])
+            frm += len(found)
+            if not found or frm >= min(res.get("totalHits") or 0, MAX_RESULTS_PER_QUERY if q else 1000):
+                break
+            time.sleep(0.2)
+    return list(jobs.values())
+
+
+# --- SmartRecruiters (NBCUniversal, ServiceNow) -----------------------------
+
+def smartrecruiters(src, terms):
+    co = src["company"]
+    s = _session()
+    jobs = {}
+    for q in terms:
+        offset = 0
+        while True:
+            data = _json(_request(s, "GET", f"https://api.smartrecruiters.com/v1/companies/{co}/postings"
+                                            f"?q={quote(q)}&limit=100&offset={offset}"))
+            if "content" not in data:
+                raise SourceError("unexpected SmartRecruiters response")
+            for p in data["content"]:
+                loc = p.get("location") or {}
+                where = loc.get("fullLocation") or ", ".join(v for v in (loc.get("city"), loc.get("region"), loc.get("country")) if v)
+                key = f"sr:{co}:{p['id']}"
+                jobs[key] = Job(key, src["name"], p.get("name", "").strip(), f"https://jobs.smartrecruiters.com/{co}/{p['id']}",
+                                where, (p.get("releasedDate") or "")[:10], detail=p.get("ref") or "")
+            offset += 100
+            if not data["content"] or offset >= min(data.get("totalFound") or 0, MAX_RESULTS_PER_QUERY):
+                break
+            time.sleep(0.3)
+    return list(jobs.values())
+
+
+# --- Amazon (its own job search) ---------------------------------------------
+
+def amazon(src, terms):
+    s = _session()
+    jobs = {}
+    for loc in src["locations"]:
+        for q in terms:
+            offset = 0
+            while True:
+                data = _json(_request(s, "GET", f"https://www.amazon.jobs/en/search.json?base_query={quote(q)}"
+                                                f"&loc_query={quote(loc)}&result_limit=100&offset={offset}&sort=recent"))
+                if "jobs" not in data:
+                    raise SourceError("unexpected Amazon response")
+                for j in data["jobs"]:
+                    key = f"amzn:{j.get('id_icims') or j.get('job_path')}"
+                    jobs[key] = Job(key, src["name"], j.get("title", "").strip(), "https://www.amazon.jobs" + j.get("job_path", ""),
+                                    j.get("normalized_location") or j.get("location", ""), j.get("posted_date", ""),
+                                    description=_text(" ".join(j.get(k) or "" for k in
+                                                               ("description", "basic_qualifications", "preferred_qualifications"))))
+                offset += 100
+                if not data["jobs"] or offset >= min(data.get("hits") or 0, MAX_RESULTS_PER_QUERY):
+                    break
+                time.sleep(0.3)
     return list(jobs.values())
 
 
@@ -352,7 +454,7 @@ def describe(src, job):
     t = src["type"]
     s = _session()
     if t == "workday" and job.detail:
-        info = _json(_request(s, "GET", job.detail)).get("jobPostingInfo") or {}
+        info = _json(WORKDAY.request(s, "GET", job.detail)).get("jobPostingInfo") or {}
         return _text(info.get("jobDescription"))
     if t == "oracle" and job.detail:
         items = _json(_request(s, "GET", job.detail)).get("items") or [{}]
@@ -367,10 +469,14 @@ def describe(src, job):
     if t == "phenom":
         m = re.search(r'"description"\s*:\s*"((?:[^"\\]|\\.)*)"', _request(s, "GET", job.url).text)
         return _text(html.unescape(json.loads(f'"{m.group(1)}"'))) if m else ""
+    if t == "smartrecruiters" and job.detail:
+        sections = (_json(_request(s, "GET", job.detail)).get("jobAd") or {}).get("sections") or {}
+        return _text(" ".join((v or {}).get("text") or "" for v in sections.values()))
     return ""
 
 
 FETCHERS = {
     "workday": workday, "oracle": oracle, "greenhouse": greenhouse, "lever": lever, "ashby": ashby,
     "eightfold": eightfold, "oleeo": oleeo, "icims": icims, "phenom": phenom, "goldman": goldman, "page": page,
+    "smartrecruiters": smartrecruiters, "amazon": amazon,
 }

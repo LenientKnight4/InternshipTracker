@@ -1,12 +1,16 @@
 """Decides whether a posting is relevant and how loudly to alert about it.
 
-Priorities:
-  high   - AM / ER / credit internship, or any non-off-target internship at a
-           credit specialist (firm kind "credit") -> instant phone push
-  medium - related: wealth roles anywhere, or other business internships at an
-           asset manager -> one grouped push per run
-  low    - internship at a watched firm but off-focus (IB, tech, ops, events) -> dashboard only
-  None   - not an internship, wrong year, wrong level, or outside the US -> ignored
+Priorities (keyword lists come from filters.yaml):
+  high   - strong_focus / focus match, or any non-off-target internship at a
+           firm of kind "focus" (or "credit") -> instant phone push
+  medium - "related" match, or other internships at a firm of kind "am" / "related"
+           -> one grouped push per run
+  low    - internship at a watched firm but off-focus -> dashboard only
+  None   - not an internship, wrong year, wrong level, or wrong location -> ignored
+
+Location: with only_locations set (e.g. NYC / Boston), a posting must be in one of
+those places. Vague locations ("2 Locations", "United States", "Remote") are
+"maybe" and get settled from the description. Without it, any US location passes.
 
 fit() then checks your class year can apply (see graduation_year in filters.yaml).
 """
@@ -31,6 +35,10 @@ UPPERCLASS_RE = re.compile(
 GRAD_RE = re.compile(r"(?:graduat\w*|class of|grad(?:uation)? date|degree (?:completion|by)|expected to (?:complete|finish)"
                      r"|full[- ]time (?:employment|position|role|start))[^.;]{0,90}", re.I)
 SPLIT_YEAR_RE = re.compile(r"(?<!\d)(20\d)\s(\d)(?!\d)")  # web pages sometimes break "2028" into "202 8"
+# Location text that doesn't name a specific city
+VAGUE_LOCATION_RE = re.compile(r"^\s*$|\d+\s+locations?|multiple|various|remote|virtual|nationwide|anywhere|flexible"
+                               r"|^\W*(?:united states(?: of america)?|usa?|u\.s\.|north america|americas)\W*$", re.I)
+KIND_DEFAULT = {"focus": "high", "credit": "high", "am": "medium", "related": "medium"}
 
 
 def _phrases(terms):
@@ -56,13 +64,30 @@ class Matcher:
         self.related = _phrases(cfg["related"])
         self.hard_off = _phrases(cfg["off_target_hard"])
         self.soft_off = _phrases(cfg["off_target_soft"])
-        self.non_us = _phrases(cfg["non_us_locations"])
-        self.us = _phrases(cfg["us_markers"])
+        self.non_us = _phrases(cfg.get("non_us_locations"))
+        self.us = _phrases(cfg.get("us_markers"))
+        only = cfg.get("only_locations") or []
+        self.only_label = " / ".join(cfg.get("only_locations_label") or only[:2])
+        # In a location field, "Albany, New York" means the state, so a place only counts as the city
+        # when it isn't right after a comma. Titles ("Marketing Intern, New York") are matched loosely.
+        self.only_loc = re.compile(r"(?<!, )" + _phrases(only).pattern, re.I) if only else None
+        self.only_any = _phrases(only) if only else None
 
     def is_us_or_unknown(self, text):
         if not (self.non_us.search(text) or CANADA_RE.search(text)):
             return True
         return bool(self.us.search(text) or STATE_RE.search(text))
+
+    def location_status(self, job):
+        """"ok", "no", or "maybe" (only_locations set and the location is too vague to tell)."""
+        if not self.only_loc:
+            return "ok" if self.is_us_or_unknown(f"{job.location} | {job.title}") else "no"
+        if self.only_loc.search(job.location) or self.only_any.search(job.title):
+            return "ok"
+        return "maybe" if VAGUE_LOCATION_RE.search(job.location) else "no"
+
+    def place_in(self, description):
+        return bool(self.only_any and self.only_any.search(description or ""))
 
     def classify(self, job, firm_kind):
         title = job.title
@@ -74,7 +99,7 @@ class Matcher:
         years = set(re.findall(r"(?<!\d)(20\d\d)(?!\d)", title))
         if years and not years & self.years:
             return None
-        if not self.is_us_or_unknown(f"{job.location} | {title}"):
+        if self.location_status(job) == "no":
             return None
 
         if self.events.search(title) or self.hard_off.search(text):
@@ -87,7 +112,7 @@ class Matcher:
             return "high"
         if self.related.search(text):
             return "medium"
-        return {"credit": "high", "am": "medium"}.get(firm_kind, "low")
+        return KIND_DEFAULT.get(firm_kind, "low")
 
     def fit(self, job, description=None):
         """Can someone graduating in self.grad apply? Returns (ok, reason).
