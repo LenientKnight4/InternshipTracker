@@ -290,6 +290,11 @@
    "source": "Goldman Sachs",
    "why": "summer 2027, no sign sophomores can apply"
   },
+  "gs:189373_GS_CAMPUS": {
+   "ok": false,
+   "source": "Goldman Sachs",
+   "why": "summer 2027, no sign sophomores can apply"
+  },
   "icims:https://careers-stifel.icims.com:10095": {
    "ok": true,
    "source": "Stifel",
@@ -498,11 +503,6 @@
   "oracle:eofe.fa.us2.oraclecloud.com:83756": {
    "ok": false,
    "source": "BNY",
-   "why": "for class of 2027/2028"
-  },
-  "oracle:icbpjb.fa.ocs.oraclecloud.com:6611": {
-   "ok": false,
-   "source": "Lazard",
    "why": "for class of 2027/2028"
   },
   "oracle:jpmc.fa.oraclecloud.com:210765276": {
@@ -2773,31 +2773,31 @@
   "AllianceBernstein": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "American Century": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Antares": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 4,
+   "failures": 5,
    "seeded": true
   },
   "Apollo": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Ares": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Artisan Partners": {
@@ -2815,7 +2815,7 @@
   "BMO": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "BNY": {
@@ -2827,13 +2827,13 @@
   "Bain Capital": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Baird": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Bank of America": {
@@ -2845,79 +2845,79 @@
   "Barclays": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Barings": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "BlackRock": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Blackstone": {
-   "alerted": false,
+   "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 2,
+   "failures": 3,
    "seeded": true
   },
   "Blackstone (campus)": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Blue Owl": {
    "alerted": false,
-   "error": "",
-   "failures": 0,
+   "error": "HTTPError: HTTP 429",
+   "failures": 1,
    "seeded": true
   },
   "Brookfield": {
-   "alerted": false,
+   "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 2,
+   "failures": 3,
    "seeded": true
   },
   "Capital Group": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Carlyle": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Cerberus": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Citi": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Deutsche Bank": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Dodge & Cox": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 4,
+   "failures": 5,
    "seeded": true
   },
   "Evercore": {
@@ -2929,19 +2929,19 @@
   "Fidelity": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "First Eagle": {
    "alerted": false,
-   "error": "HTTPError: HTTP 429",
-   "failures": 2,
+   "error": "",
+   "failures": 0,
    "seeded": true
   },
   "Fortress": {
    "alerted": false,
-   "error": "",
-   "failures": 0,
+   "error": "HTTPError: HTTP 429",
+   "failures": 1,
    "seeded": true
   },
   "Franklin Templeton": {
@@ -2959,7 +2959,7 @@
   "Guggenheim": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "HPS": {
@@ -2971,7 +2971,7 @@
   "Hamilton Lane": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 4,
+   "failures": 5,
    "seeded": true
   },
   "Harris / Oakmark": {
@@ -2983,7 +2983,7 @@
   "Invesco": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "JPMorgan": {
@@ -3019,25 +3019,25 @@
   "Mizuho": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Morgan Stanley": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Morningstar": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Neuberger Berman": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Nomura": {
@@ -3047,15 +3047,15 @@
    "seeded": true
   },
   "Northern Trust": {
-   "alerted": true,
-   "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "alerted": false,
+   "error": "",
+   "failures": 0,
    "seeded": true
   },
   "Nuveen / TIAA": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "OHA (Oak Hill Advisors)": {
@@ -3065,21 +3065,21 @@
    "seeded": true
   },
   "Oaktree": {
-   "alerted": false,
+   "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 2,
+   "failures": 3,
    "seeded": true
   },
   "PGIM": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "PIMCO": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Point72": {
@@ -3091,13 +3091,13 @@
   "RBC": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Raymond James": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Schonfeld": {
@@ -3108,14 +3108,14 @@
   },
   "Sixth Street": {
    "alerted": false,
-   "error": "",
-   "failures": 0,
+   "error": "HTTPError: HTTP 429",
+   "failures": 1,
    "seeded": true
   },
   "State Street": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Stifel": {
@@ -3125,9 +3125,9 @@
    "seeded": true
   },
   "T. Rowe Price": {
-   "alerted": false,
+   "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 2,
+   "failures": 3,
    "seeded": true
   },
   "TCW": {
@@ -3139,7 +3139,7 @@
   "TD": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "TPG / Angelo Gordon": {
@@ -3151,31 +3151,31 @@
   "Truist": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Vanguard": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Voya": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Wellington": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "Wells Fargo": {
    "alerted": true,
    "error": "HTTPError: HTTP 429",
-   "failures": 7,
+   "failures": 8,
    "seeded": true
   },
   "William Blair": {

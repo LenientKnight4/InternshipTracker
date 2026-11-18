@@ -1,6 +1,6 @@
 # Internship tracker
 
-_Updated 2026-11-18 11:29 UTC · watching 70 sources · ⚠️ 44 failing: Morgan Stanley, Citi, Wells Fargo, Barclays, Deutsche Bank, State Street, Northern Trust, RBC, BMO, TD, Mizuho, Baird, Raymond James, Truist, Morningstar, BlackRock, Vanguard, Fidelity, Capital Group, T. Rowe Price, Wellington, PIMCO, Invesco, AllianceBernstein, Neuberger Berman, Nuveen / TIAA, American Century, Dodge & Cox, Blackstone, Blackstone (campus), Apollo, Carlyle, Bain Capital, Brookfield, Hamilton Lane, Ares, Oaktree, Antares, Cerberus, Barings, PGIM, Guggenheim, First Eagle, Voya_
+_Updated 2026-11-18 19:32 UTC · watching 70 sources · ⚠️ 45 failing: Morgan Stanley, Citi, Wells Fargo, Barclays, Deutsche Bank, State Street, RBC, BMO, TD, Mizuho, Baird, Raymond James, Truist, Morningstar, BlackRock, Vanguard, Fidelity, Capital Group, T. Rowe Price, Wellington, PIMCO, Invesco, AllianceBernstein, Neuberger Berman, Nuveen / TIAA, American Century, Dodge & Cox, Blackstone, Blackstone (campus), Apollo, Carlyle, Bain Capital, Brookfield, Hamilton Lane, Ares, Blue Owl, Oaktree, Sixth Street, Antares, Fortress, Cerberus, Barings, PGIM, Guggenheim, Voya_
 
 ## 🎯 AM / ER / credit internships — open now (7)
 
@@ -115,74 +115,74 @@ _Updated 2026-11-18 11:29 UTC · watching 70 sources · ⚠️ 44 failing: Morga
 |---|---|---|---|
 | Goldman Sachs | goldman | ✅ | 0 |
 | JPMorgan | oracle | ✅ | 0 |
-| Morgan Stanley | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 5 |
+| Morgan Stanley | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 5 |
 | Bank of America | oleeo | ✅ | 1 |
-| Citi | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
-| Wells Fargo | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 1 |
-| Barclays | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
-| Deutsche Bank | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
+| Citi | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
+| Wells Fargo | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 1 |
+| Barclays | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
+| Deutsche Bank | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
 | BNY | oracle | ✅ | 0 |
-| State Street | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 1 |
-| Northern Trust | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
-| RBC | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 6 |
-| BMO | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
-| TD | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 1 |
-| Mizuho | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
+| State Street | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 1 |
+| Northern Trust | workday | ✅ | 0 |
+| RBC | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 6 |
+| BMO | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
+| TD | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 1 |
+| Mizuho | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
 | Nomura | oleeo | ✅ | 1 |
 | Jefferies | oleeo | ✅ | 11 |
 | Evercore | oleeo | ✅ | 0 |
 | Lazard | oracle | ✅ | 14 |
 | William Blair | greenhouse | ✅ | 0 |
-| Baird | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 1 |
-| Raymond James | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
+| Baird | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 1 |
+| Raymond James | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
 | Stifel | icims | ✅ | 1 |
-| Truist | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 1 |
-| Morningstar | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
-| BlackRock | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
-| Vanguard | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 13 |
-| Fidelity | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
-| Capital Group | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
-| T. Rowe Price | workday | ⚠️ failing (2 runs): HTTPError: HTTP 429 | 0 |
-| Wellington | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
-| PIMCO | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
-| Invesco | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 1 |
+| Truist | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 1 |
+| Morningstar | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
+| BlackRock | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
+| Vanguard | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 13 |
+| Fidelity | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
+| Capital Group | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
+| T. Rowe Price | workday | ⚠️ failing (3 runs): HTTPError: HTTP 429 | 0 |
+| Wellington | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
+| PIMCO | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
+| Invesco | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 1 |
 | Franklin Templeton | phenom | ✅ | 0 |
-| AllianceBernstein | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
-| Neuberger Berman | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
-| Nuveen / TIAA | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 1 |
-| American Century | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 1 |
-| Dodge & Cox | workday | ⚠️ failing (4 runs): HTTPError: HTTP 429 | 1 |
+| AllianceBernstein | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
+| Neuberger Berman | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
+| Nuveen / TIAA | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 1 |
+| American Century | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 1 |
+| Dodge & Cox | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 1 |
 | Artisan Partners | greenhouse | ✅ | 0 |
 | Harris / Oakmark | greenhouse | ✅ | 0 |
 | AQR | greenhouse | ✅ | 0 |
 | Point72 | greenhouse | ✅ | 8 |
 | Millennium | eightfold | ✅ | 0 |
 | Schonfeld | greenhouse | ✅ | 0 |
-| Blackstone | workday | ⚠️ failing (2 runs): HTTPError: HTTP 429 | 0 |
-| Blackstone (campus) | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
-| Apollo | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
-| Carlyle | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
-| Bain Capital | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
+| Blackstone | workday | ⚠️ failing (3 runs): HTTPError: HTTP 429 | 0 |
+| Blackstone (campus) | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
+| Apollo | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
+| Carlyle | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
+| Bain Capital | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
 | TPG / Angelo Gordon | greenhouse | ✅ | 2 |
-| Brookfield | workday | ⚠️ failing (2 runs): HTTPError: HTTP 429 | 2 |
-| Hamilton Lane | workday | ⚠️ failing (4 runs): HTTPError: HTTP 429 | 0 |
-| Ares | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
-| Blue Owl | workday | ✅ | 0 |
-| Oaktree | workday | ⚠️ failing (2 runs): HTTPError: HTTP 429 | 0 |
-| Sixth Street | workday | ✅ | 0 |
+| Brookfield | workday | ⚠️ failing (3 runs): HTTPError: HTTP 429 | 2 |
+| Hamilton Lane | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
+| Ares | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
+| Blue Owl | workday | ⚠️ failing (1 runs): HTTPError: HTTP 429 | 0 |
+| Oaktree | workday | ⚠️ failing (3 runs): HTTPError: HTTP 429 | 0 |
+| Sixth Street | workday | ⚠️ failing (1 runs): HTTPError: HTTP 429 | 0 |
 | HPS | greenhouse | ✅ | 0 |
 | OHA (Oak Hill Advisors) | greenhouse | ✅ | 1 |
-| Antares | workday | ⚠️ failing (4 runs): HTTPError: HTTP 429 | 0 |
-| Fortress | workday | ✅ | 0 |
-| Cerberus | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
+| Antares | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
+| Fortress | workday | ⚠️ failing (1 runs): HTTPError: HTTP 429 | 0 |
+| Cerberus | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
 | Audax (Private Debt) | greenhouse | ✅ | 0 |
 | Marathon Asset Management | icims | ✅ | 0 |
 | TCW | icims | ✅ | 0 |
-| Barings | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
-| PGIM | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
-| Guggenheim | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 0 |
-| First Eagle | workday | ⚠️ failing (2 runs): HTTPError: HTTP 429 | 0 |
-| Voya | workday | ⚠️ failing (7 runs): HTTPError: HTTP 429 | 1 |
+| Barings | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
+| PGIM | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
+| Guggenheim | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 0 |
+| First Eagle | workday | ✅ | 0 |
+| Voya | workday | ⚠️ failing (8 runs): HTTPError: HTTP 429 | 1 |
 
 ## Check by hand (no public feed)
 
