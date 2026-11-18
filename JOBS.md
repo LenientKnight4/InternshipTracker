@@ -1,6 +1,6 @@
 # Internship tracker
 
-_Updated 2026-11-17 20:46 UTC · watching 70 sources · ⚠️ 42 failing: Morgan Stanley, Citi, Wells Fargo, Barclays, Deutsche Bank, State Street, Northern Trust, RBC, BMO, TD, Mizuho, Baird, Raymond James, Truist, Morningstar, BlackRock, Vanguard, Fidelity, Capital Group, Wellington, PIMCO, Invesco, AllianceBernstein, Neuberger Berman, Nuveen / TIAA, American Century, Dodge & Cox, Blackstone (campus), Apollo, Carlyle, Bain Capital, Hamilton Lane, Ares, Blue Owl, Sixth Street, Antares, Fortress, Cerberus, Barings, PGIM, Guggenheim, Voya_
+_Updated 2026-11-18 02:50 UTC · watching 70 sources · ⚠️ 47 failing: Morgan Stanley, Citi, Wells Fargo, Barclays, Deutsche Bank, State Street, Northern Trust, RBC, BMO, TD, Mizuho, Baird, Raymond James, Truist, Morningstar, BlackRock, Vanguard, Fidelity, Capital Group, T. Rowe Price, Wellington, PIMCO, Invesco, AllianceBernstein, Neuberger Berman, Nuveen / TIAA, American Century, Dodge & Cox, Blackstone, Blackstone (campus), Apollo, Carlyle, Bain Capital, Brookfield, Hamilton Lane, Ares, Blue Owl, Oaktree, Sixth Street, Antares, Fortress, Cerberus, Barings, PGIM, Guggenheim, First Eagle, Voya_
 
 ## 🎯 AM / ER / credit internships — open now (7)
 
@@ -29,7 +29,7 @@ _Updated 2026-11-17 20:46 UTC · watching 70 sources · ⚠️ 42 failing: Morga
 | 2026-11-12 | Nuveen / TIAA | [2027 Early Talent Internship: Marketing & Communications, Sports Sponsorships, Folds of Honor](https://tiaa.wd1.myworkdayjobs.com/Search/job/Charlotte-NC-USA/XMLNAME-2027-Early-Talent-Internship--Marketing---Communications--Sports-Sponsorships--Folds-of-Honor_R261000122-1) | 4 Locations | open to class of 2029 |
 | 2026-11-11 | Lazard | [2028 Summer Analyst - Lazard CL: New York Private Capital Advisory](https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6801) | New York, United States | summer 2028 (after junior year) |
 | 2026-11-10 | RBC | [2028 Capital Markets, Global Markets Sales & Trading Summer Analyst](https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Capital-Markets--Global-Markets-Sales---Trading-Analyst_R-0000191757) | New York, New York, United States of America | summer 2028 (after junior year) |
-| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Boston, Industrials Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-841ec278ca2d/candidate/so/pm/1/pl/2/opp/2040-2028-Investment-Banking-Summer-Analyst-Program-Boston-Industrials-Group/en-GB) |  | summer 2028 (after junior year) |
+| 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Boston, Industrials Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-61e935a7dd47/candidate/so/pm/1/pl/2/opp/2040-2028-Investment-Banking-Summer-Analyst-Program-Boston-Industrials-Group/en-GB) |  | summer 2028 (after junior year) |
 | 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Chicago, Mergers & Acquisitions Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2044-2028-Investment-Banking-Summer-Analyst-Program-Chicago-Mergers-Acquisitions-Group/en-GB) |  | summer 2028 (after junior year) |
 | 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Charlotte, Technology, Media & Telecom Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2045-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Technology-Media-Telecom-Group/en-GB) |  | summer 2028 (after junior year) |
 | 2026-11-06 | Jefferies | [2028 Investment Banking Summer Analyst Program – Charlotte, Aerospace, Defense & Government Group](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2047-2028-Investment-Banking-Summer-Analyst-Program-Charlotte-Aerospace-Defense-Government-Group/en-GB) |  | summer 2028 (after junior year) |
@@ -115,74 +115,74 @@ _Updated 2026-11-17 20:46 UTC · watching 70 sources · ⚠️ 42 failing: Morga
 |---|---|---|---|
 | Goldman Sachs | goldman | ✅ | 0 |
 | JPMorgan | oracle | ✅ | 0 |
-| Morgan Stanley | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 5 |
+| Morgan Stanley | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 5 |
 | Bank of America | oleeo | ✅ | 1 |
-| Citi | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
-| Wells Fargo | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 1 |
-| Barclays | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
-| Deutsche Bank | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
+| Citi | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
+| Wells Fargo | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 1 |
+| Barclays | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
+| Deutsche Bank | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
 | BNY | oracle | ✅ | 0 |
-| State Street | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 1 |
-| Northern Trust | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
-| RBC | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 6 |
-| BMO | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
-| TD | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 1 |
-| Mizuho | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
+| State Street | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 1 |
+| Northern Trust | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
+| RBC | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 6 |
+| BMO | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
+| TD | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 1 |
+| Mizuho | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
 | Nomura | oleeo | ✅ | 1 |
 | Jefferies | oleeo | ✅ | 11 |
 | Evercore | oleeo | ✅ | 0 |
 | Lazard | oracle | ✅ | 14 |
 | William Blair | greenhouse | ✅ | 0 |
-| Baird | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 1 |
-| Raymond James | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
+| Baird | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 1 |
+| Raymond James | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
 | Stifel | icims | ✅ | 1 |
-| Truist | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 1 |
-| Morningstar | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
-| BlackRock | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
-| Vanguard | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 13 |
-| Fidelity | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
-| Capital Group | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
-| T. Rowe Price | workday | ✅ | 0 |
-| Wellington | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
-| PIMCO | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
-| Invesco | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 1 |
+| Truist | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 1 |
+| Morningstar | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
+| BlackRock | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
+| Vanguard | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 13 |
+| Fidelity | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
+| Capital Group | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
+| T. Rowe Price | workday | ⚠️ failing (1 runs): HTTPError: HTTP 429 | 0 |
+| Wellington | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
+| PIMCO | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
+| Invesco | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 1 |
 | Franklin Templeton | phenom | ✅ | 0 |
-| AllianceBernstein | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
-| Neuberger Berman | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
-| Nuveen / TIAA | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 1 |
-| American Century | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 1 |
-| Dodge & Cox | workday | ⚠️ failing (2 runs): HTTPError: HTTP 429 | 1 |
+| AllianceBernstein | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
+| Neuberger Berman | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
+| Nuveen / TIAA | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 1 |
+| American Century | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 1 |
+| Dodge & Cox | workday | ⚠️ failing (3 runs): HTTPError: HTTP 429 | 1 |
 | Artisan Partners | greenhouse | ✅ | 0 |
 | Harris / Oakmark | greenhouse | ✅ | 0 |
 | AQR | greenhouse | ✅ | 0 |
 | Point72 | greenhouse | ✅ | 8 |
 | Millennium | eightfold | ✅ | 0 |
 | Schonfeld | greenhouse | ✅ | 0 |
-| Blackstone | workday | ✅ | 0 |
-| Blackstone (campus) | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
-| Apollo | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
-| Carlyle | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
-| Bain Capital | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
+| Blackstone | workday | ⚠️ failing (1 runs): HTTPError: HTTP 429 | 0 |
+| Blackstone (campus) | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
+| Apollo | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
+| Carlyle | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
+| Bain Capital | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
 | TPG / Angelo Gordon | greenhouse | ✅ | 2 |
-| Brookfield | workday | ✅ | 2 |
-| Hamilton Lane | workday | ⚠️ failing (2 runs): HTTPError: HTTP 429 | 0 |
-| Ares | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
-| Blue Owl | workday | ⚠️ failing (2 runs): HTTPError: HTTP 429 | 0 |
-| Oaktree | workday | ✅ | 0 |
-| Sixth Street | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
+| Brookfield | workday | ⚠️ failing (1 runs): HTTPError: HTTP 429 | 2 |
+| Hamilton Lane | workday | ⚠️ failing (3 runs): HTTPError: HTTP 429 | 0 |
+| Ares | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
+| Blue Owl | workday | ⚠️ failing (3 runs): HTTPError: HTTP 429 | 0 |
+| Oaktree | workday | ⚠️ failing (1 runs): HTTPError: HTTP 429 | 0 |
+| Sixth Street | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
 | HPS | greenhouse | ✅ | 0 |
 | OHA (Oak Hill Advisors) | greenhouse | ✅ | 1 |
-| Antares | workday | ⚠️ failing (2 runs): HTTPError: HTTP 429 | 0 |
-| Fortress | workday | ⚠️ failing (2 runs): HTTPError: HTTP 429 | 0 |
-| Cerberus | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
+| Antares | workday | ⚠️ failing (3 runs): HTTPError: HTTP 429 | 0 |
+| Fortress | workday | ⚠️ failing (3 runs): HTTPError: HTTP 429 | 0 |
+| Cerberus | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
 | Audax (Private Debt) | greenhouse | ✅ | 0 |
 | Marathon Asset Management | icims | ✅ | 0 |
 | TCW | icims | ✅ | 0 |
-| Barings | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
-| PGIM | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
-| Guggenheim | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 0 |
-| First Eagle | workday | ✅ | 0 |
-| Voya | workday | ⚠️ failing (5 runs): HTTPError: HTTP 429 | 1 |
+| Barings | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
+| PGIM | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
+| Guggenheim | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 0 |
+| First Eagle | workday | ⚠️ failing (1 runs): HTTPError: HTTP 429 | 0 |
+| Voya | workday | ⚠️ failing (6 runs): HTTPError: HTTP 429 | 1 |
 
 ## Check by hand (no public feed)
 
