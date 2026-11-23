@@ -80,21 +80,6 @@
    "source": "Schonfeld",
    "why": "summer 2027, no sign sophomores can apply"
   },
-  "gh:schonfeld:8171776": {
-   "ok": false,
-   "source": "Schonfeld",
-   "why": "summer 2027, no sign sophomores can apply"
-  },
-  "gh:schonfeld:8324611": {
-   "ok": false,
-   "source": "Schonfeld",
-   "why": "summer 2027, no sign sophomores can apply"
-  },
-  "gh:tpgcareers:8036092003": {
-   "ok": true,
-   "source": "TPG / Angelo Gordon",
-   "why": "no class year listed; check eligibility"
-  },
   "gh:tpgcareers:8036208003": {
    "ok": true,
    "source": "TPG / Angelo Gordon",
@@ -473,11 +458,6 @@
   "oracle:eofe.fa.us2.oraclecloud.com:84126": {
    "ok": false,
    "source": "BNY",
-   "why": "for class of 2027/2028"
-  },
-  "oracle:jpmc.fa.oraclecloud.com:210765276": {
-   "ok": false,
-   "source": "JPMorgan",
    "why": "for class of 2027/2028"
   },
   "oracle:jpmc.fa.oraclecloud.com:210765972": {
@@ -1409,12 +1389,12 @@
    "url": "https://boards.greenhouse.io/point72/jobs/8876354002?gh_jid=8876354002"
   },
   "gh:tpgcareers:8036092003": {
-   "closed": null,
+   "closed": "2026-11-23T22:33:38+00:00",
    "firm": "TPG / Angelo Gordon",
    "fit": "no class year listed; check eligibility",
    "found": "2026-11-04T22:44:56+00:00",
    "location": "Remote",
-   "open": true,
+   "open": false,
    "posted": "2026-10-19",
    "priority": "low",
    "source": "TPG / Angelo Gordon",
@@ -2772,31 +2752,31 @@
   "AllianceBernstein": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "American Century": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Antares": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 22,
+   "failures": 23,
    "seeded": true
   },
   "Apollo": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Ares": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Artisan Partners": {
@@ -2820,7 +2800,7 @@
   "BMO": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "BNY": {
@@ -2844,13 +2824,13 @@
   "Bain Capital": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Baird": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Bank of America": {
@@ -2862,43 +2842,43 @@
   "Barclays": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Barings": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "BlackRock": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Blackstone": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 20,
+   "failures": 21,
    "seeded": true
   },
   "Blackstone (campus)": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Blue Owl": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 18,
+   "failures": 19,
    "seeded": true
   },
   "Brookfield": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 20,
+   "failures": 21,
    "seeded": true
   },
   "Canaccord Genuity": {
@@ -2910,25 +2890,25 @@
   "Capital Group": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Carlyle": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Cerberus": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Citi": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Citizens JMP": {
@@ -2946,13 +2926,13 @@
   "Deutsche Bank": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Dodge & Cox": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 22,
+   "failures": 23,
    "seeded": true
   },
   "Evercore": {
@@ -2964,19 +2944,19 @@
   "Fidelity": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "First Eagle": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 17,
+   "failures": 18,
    "seeded": true
   },
   "Fortress": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 18,
+   "failures": 19,
    "seeded": true
   },
   "Franklin Templeton": {
@@ -2994,7 +2974,7 @@
   "Guggenheim": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "H.C. Wainwright": {
@@ -3012,7 +2992,7 @@
   "Hamilton Lane": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 22,
+   "failures": 23,
    "seeded": true
   },
   "Harris / Oakmark": {
@@ -3024,7 +3004,7 @@
   "Invesco": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "JPMorgan": {
@@ -3072,19 +3052,19 @@
   "Mizuho": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Morgan Stanley": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Morningstar": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Needham": {
@@ -3096,7 +3076,7 @@
   "Neuberger Berman": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Nomura": {
@@ -3108,19 +3088,19 @@
   "Northern Trust": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 17,
+   "failures": 18,
    "seeded": true
   },
   "Northland Capital Markets": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 16,
+   "failures": 17,
    "seeded": false
   },
   "Nuveen / TIAA": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "OHA (Oak Hill Advisors)": {
@@ -3132,7 +3112,7 @@
   "Oaktree": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 20,
+   "failures": 21,
    "seeded": true
   },
   "Oppenheimer": {
@@ -3144,19 +3124,19 @@
   "PGIM": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "PIMCO": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Piper Sandler": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 16,
+   "failures": 17,
    "seeded": false
   },
   "Point72": {
@@ -3168,13 +3148,13 @@
   "RBC": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Raymond James": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Roth Capital": {
@@ -3192,13 +3172,13 @@
   "Sixth Street": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 18,
+   "failures": 19,
    "seeded": true
   },
   "State Street": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Stifel / KBW": {
@@ -3210,7 +3190,7 @@
   "T. Rowe Price": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 20,
+   "failures": 21,
    "seeded": true
   },
   "TCW": {
@@ -3222,7 +3202,7 @@
   "TD": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "TPG / Angelo Gordon": {
@@ -3234,31 +3214,31 @@
   "Truist": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Vanguard": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Voya": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Wellington": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "Wells Fargo": {
    "alerted": true,
    "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 25,
+   "failures": 26,
    "seeded": true
   },
   "William Blair": {
