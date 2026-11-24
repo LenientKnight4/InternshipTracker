@@ -980,11 +980,6 @@
    "source": "Invesco",
    "why": "for class of 2028"
   },
-  "wd:ms:JR037647": {
-   "ok": true,
-   "source": "Morgan Stanley",
-   "why": "no class year listed; check eligibility"
-  },
   "wd:ms:JR037649": {
    "ok": true,
    "source": "Morgan Stanley",
@@ -1001,6 +996,11 @@
    "why": "no class year listed; check eligibility"
   },
   "wd:ms:JR045797": {
+   "ok": true,
+   "source": "Morgan Stanley",
+   "why": "no class year listed; check eligibility"
+  },
+  "wd:ms:JR046556": {
    "ok": true,
    "source": "Morgan Stanley",
    "why": "no class year listed; check eligibility"
@@ -1134,16 +1134,6 @@
    "ok": true,
    "source": "Nuveen / TIAA",
    "why": "open to class of 2029"
-  },
-  "wd:truist:R0121539": {
-   "ok": false,
-   "source": "Truist",
-   "why": "for class of 2027/2028"
-  },
-  "wd:truist:R0121545": {
-   "ok": false,
-   "source": "Truist",
-   "why": "for class of 2027/2028"
   },
   "wd:vanguard:181762": {
    "ok": true,
@@ -2286,12 +2276,12 @@
    "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Boston-Massachusetts/Quantitative-Intern---Portfolio-Engineering-and-Analytics_R-15665-2"
   },
   "wd:ms:JR037647": {
-   "closed": null,
+   "closed": "2026-11-24T06:20:25+00:00",
    "firm": "Morgan Stanley",
    "fit": "no class year listed; check eligibility",
    "found": "2026-11-04T22:15:49+00:00",
    "location": "Pasadena, California, United States of America",
-   "open": true,
+   "open": false,
    "posted": "Posted 30+ Days Ago",
    "priority": "low",
    "source": "Morgan Stanley",
@@ -2331,7 +2321,7 @@
    "found": "2026-11-04T22:15:49+00:00",
    "location": "Rapid City, South Dakota, United States of America",
    "open": true,
-   "posted": "Posted 27 Days Ago",
+   "posted": "Posted 30+ Days Ago",
    "priority": "low",
    "source": "Morgan Stanley",
    "title": "Intern",
@@ -2344,7 +2334,7 @@
    "found": "2026-11-04T22:15:49+00:00",
    "location": "Winter Park, Florida, United States of America",
    "open": true,
-   "posted": "Posted 27 Days Ago",
+   "posted": "Posted 30+ Days Ago",
    "priority": "low",
    "source": "Morgan Stanley",
    "title": "Intern",
@@ -2362,6 +2352,19 @@
    "source": "Morgan Stanley",
    "title": "Intern",
    "url": "https://ms.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma-United-States-of-America/Intern_JR045882"
+  },
+  "wd:ms:JR046556": {
+   "closed": null,
+   "firm": "Morgan Stanley",
+   "fit": "no class year listed; check eligibility",
+   "found": "2026-11-24T06:20:25+00:00",
+   "location": "Garden City, New York, United States of America",
+   "open": true,
+   "posted": "Posted 3 Days Ago",
+   "priority": "low",
+   "source": "Morgan Stanley",
+   "title": "Intern",
+   "url": "https://ms.wd5.myworkdayjobs.com/External/job/Garden-City-New-York-United-States-of-America/Intern_JR046556"
   },
   "wd:rbc:R-0000188458": {
    "closed": null,
@@ -2546,12 +2549,12 @@
    "url": "https://tiaa.wd1.myworkdayjobs.com/Search/job/New-York-NY---730-Third-Avenue/XMLNAME-2027-Intern--Energy-Infrastructure-Credit_R261000336-1"
   },
   "wd:truist:R0121314": {
-   "closed": null,
+   "closed": "2026-11-24T06:20:25+00:00",
    "firm": "Truist",
    "fit": "summer 2028 (after junior year)",
    "found": "2026-11-04T22:15:49+00:00",
    "location": "Houston, TX",
-   "open": true,
+   "open": false,
    "posted": "Posted 6 Days Ago",
    "priority": "low",
    "source": "Truist",
@@ -2734,7 +2737,7 @@
    "found": "2026-11-04T22:15:49+00:00",
    "location": "HOUSTON, TX",
    "open": true,
-   "posted": "Posted 17 Days Ago",
+   "posted": "Posted 25 Days Ago",
    "priority": "low",
    "source": "Wells Fargo",
    "title": "2028 Investment Banking Summer Internship – Early Careers (Houston)",
@@ -2745,50 +2748,50 @@
  "sources": {
   "AQR": {
    "alerted": false,
-   "error": "",
-   "failures": 0,
+   "error": "didn't finish within 11 minutes",
+   "failures": 1,
    "seeded": true
   },
   "AllianceBernstein": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "American Century": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "Antares": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 23,
+   "error": "didn't finish within 11 minutes",
+   "failures": 24,
    "seeded": true
   },
   "Apollo": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "Ares": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "Artisan Partners": {
    "alerted": false,
-   "error": "",
-   "failures": 0,
+   "error": "didn't finish within 11 minutes",
+   "failures": 1,
    "seeded": true
   },
   "Audax (Private Debt)": {
    "alerted": false,
-   "error": "",
-   "failures": 0,
+   "error": "didn't finish within 11 minutes",
+   "failures": 1,
    "seeded": true
   },
   "B. Riley": {
@@ -2799,8 +2802,8 @@
   },
   "BMO": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "BNY": {
@@ -2823,14 +2826,14 @@
   },
   "Bain Capital": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "Baird": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "Bank of America": {
@@ -2841,44 +2844,44 @@
   },
   "Barclays": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "Barings": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "BlackRock": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "Blackstone": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 21,
+   "error": "didn't finish within 11 minutes",
+   "failures": 22,
    "seeded": true
   },
   "Blackstone (campus)": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "Blue Owl": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 19,
+   "error": "didn't finish within 11 minutes",
+   "failures": 20,
    "seeded": true
   },
   "Brookfield": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 21,
+   "error": "didn't finish within 11 minutes",
+   "failures": 22,
    "seeded": true
   },
   "Canaccord Genuity": {
@@ -2889,26 +2892,26 @@
   },
   "Capital Group": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "Carlyle": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "Cerberus": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "Citi": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "Citizens JMP": {
@@ -2925,14 +2928,14 @@
   },
   "Deutsche Bank": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "Dodge & Cox": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 23,
+   "error": "didn't finish within 11 minutes",
+   "failures": 24,
    "seeded": true
   },
   "Evercore": {
@@ -2943,26 +2946,26 @@
   },
   "Fidelity": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "First Eagle": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 18,
+   "error": "didn't finish within 11 minutes",
+   "failures": 19,
    "seeded": true
   },
   "Fortress": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 19,
+   "error": "didn't finish within 11 minutes",
+   "failures": 20,
    "seeded": true
   },
   "Franklin Templeton": {
    "alerted": false,
-   "error": "",
-   "failures": 0,
+   "error": "didn't finish within 11 minutes",
+   "failures": 1,
    "seeded": true
   },
   "Goldman Sachs": {
@@ -2973,8 +2976,8 @@
   },
   "Guggenheim": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "H.C. Wainwright": {
@@ -2985,26 +2988,26 @@
   },
   "HPS": {
    "alerted": false,
-   "error": "",
-   "failures": 0,
+   "error": "didn't finish within 11 minutes",
+   "failures": 1,
    "seeded": true
   },
   "Hamilton Lane": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 23,
+   "error": "didn't finish within 11 minutes",
+   "failures": 24,
    "seeded": true
   },
   "Harris / Oakmark": {
    "alerted": false,
-   "error": "",
-   "failures": 0,
+   "error": "didn't finish within 11 minutes",
+   "failures": 1,
    "seeded": true
   },
   "Invesco": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "JPMorgan": {
@@ -3039,32 +3042,32 @@
   },
   "Marathon Asset Management": {
    "alerted": false,
-   "error": "",
-   "failures": 0,
+   "error": "didn't finish within 11 minutes",
+   "failures": 1,
    "seeded": true
   },
   "Millennium": {
+   "alerted": false,
+   "error": "didn't finish within 11 minutes",
+   "failures": 1,
+   "seeded": true
+  },
+  "Mizuho": {
    "alerted": false,
    "error": "",
    "failures": 0,
    "seeded": true
   },
-  "Mizuho": {
-   "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
-   "seeded": true
-  },
   "Morgan Stanley": {
-   "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "alerted": false,
+   "error": "",
+   "failures": 0,
    "seeded": true
   },
   "Morningstar": {
-   "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "alerted": false,
+   "error": "",
+   "failures": 0,
    "seeded": true
   },
   "Needham": {
@@ -3075,8 +3078,8 @@
   },
   "Neuberger Berman": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "Nomura": {
@@ -3086,33 +3089,33 @@
    "seeded": true
   },
   "Northern Trust": {
-   "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 18,
-   "seeded": true
-  },
-  "Northland Capital Markets": {
-   "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 17,
-   "seeded": false
-  },
-  "Nuveen / TIAA": {
-   "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
-   "seeded": true
-  },
-  "OHA (Oak Hill Advisors)": {
    "alerted": false,
    "error": "",
    "failures": 0,
    "seeded": true
   },
+  "Northland Capital Markets": {
+   "alerted": true,
+   "error": "didn't finish within 11 minutes",
+   "failures": 18,
+   "seeded": false
+  },
+  "Nuveen / TIAA": {
+   "alerted": true,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
+   "seeded": true
+  },
+  "OHA (Oak Hill Advisors)": {
+   "alerted": false,
+   "error": "didn't finish within 11 minutes",
+   "failures": 1,
+   "seeded": true
+  },
   "Oaktree": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 21,
+   "error": "didn't finish within 11 minutes",
+   "failures": 22,
    "seeded": true
   },
   "Oppenheimer": {
@@ -3123,38 +3126,38 @@
   },
   "PGIM": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "PIMCO": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "Piper Sandler": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 17,
+   "error": "didn't finish within 11 minutes",
+   "failures": 18,
    "seeded": false
   },
   "Point72": {
    "alerted": false,
-   "error": "",
-   "failures": 0,
+   "error": "didn't finish within 11 minutes",
+   "failures": 1,
    "seeded": true
   },
   "RBC": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "Raymond James": {
-   "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "alerted": false,
+   "error": "",
+   "failures": 0,
    "seeded": true
   },
   "Roth Capital": {
@@ -3165,20 +3168,20 @@
   },
   "Schonfeld": {
    "alerted": false,
-   "error": "",
-   "failures": 0,
+   "error": "didn't finish within 11 minutes",
+   "failures": 1,
    "seeded": true
   },
   "Sixth Street": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 19,
+   "error": "didn't finish within 11 minutes",
+   "failures": 20,
    "seeded": true
   },
   "State Street": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "Stifel / KBW": {
@@ -3189,56 +3192,56 @@
   },
   "T. Rowe Price": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 21,
+   "error": "didn't finish within 11 minutes",
+   "failures": 22,
    "seeded": true
   },
   "TCW": {
    "alerted": false,
-   "error": "",
-   "failures": 0,
+   "error": "didn't finish within 11 minutes",
+   "failures": 1,
    "seeded": true
   },
   "TD": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "TPG / Angelo Gordon": {
+   "alerted": false,
+   "error": "didn't finish within 11 minutes",
+   "failures": 1,
+   "seeded": true
+  },
+  "Truist": {
    "alerted": false,
    "error": "",
    "failures": 0,
    "seeded": true
   },
-  "Truist": {
-   "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
-   "seeded": true
-  },
   "Vanguard": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "Voya": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "Wellington": {
    "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "error": "didn't finish within 11 minutes",
+   "failures": 27,
    "seeded": true
   },
   "Wells Fargo": {
-   "alerted": true,
-   "error": "HTTP 429: Workday is refusing requests from this server right now",
-   "failures": 26,
+   "alerted": false,
+   "error": "",
+   "failures": 0,
    "seeded": true
   },
   "William Blair": {
@@ -3256,7 +3259,7 @@
  },
  "week": {
   "high": 0,
-  "low": 0,
+  "low": 1,
   "medium": 0
  }
 }
