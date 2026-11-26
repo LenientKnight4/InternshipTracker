@@ -1,6 +1,6 @@
 # Internship tracker
 
-_Updated 2026-11-25 21:57 UTC · watching 85 sources · ⚠️ 50 failing: Morgan Stanley, Citi, Wells Fargo, Barclays, Deutsche Bank, State Street, Northern Trust, RBC, BMO, TD, Mizuho, Baird, Raymond James, Truist, Morningstar, Piper Sandler, Northland Capital Markets, BlackRock, Vanguard, Fidelity, Capital Group, T. Rowe Price, Wellington, PIMCO, Invesco, AllianceBernstein, Neuberger Berman, Nuveen / TIAA, American Century, Dodge & Cox, Millennium, Blackstone, Blackstone (campus), Apollo, Carlyle, Bain Capital, Brookfield, Hamilton Lane, Ares, Blue Owl, Oaktree, Sixth Street, Antares, Fortress, Cerberus, Barings, PGIM, Guggenheim, First Eagle, Voya_
+_Updated 2026-11-26 04:05 UTC · watching 85 sources · ⚠️ 49 failing: Morgan Stanley, Citi, Wells Fargo, Barclays, Deutsche Bank, State Street, Northern Trust, RBC, BMO, TD, Mizuho, Baird, Raymond James, Truist, Morningstar, Piper Sandler, Northland Capital Markets, BlackRock, Vanguard, Fidelity, Capital Group, T. Rowe Price, Wellington, PIMCO, Invesco, AllianceBernstein, Neuberger Berman, Nuveen / TIAA, American Century, Dodge & Cox, Blackstone, Blackstone (campus), Apollo, Carlyle, Bain Capital, Brookfield, Hamilton Lane, Ares, Blue Owl, Oaktree, Sixth Street, Antares, Fortress, Cerberus, Barings, PGIM, Guggenheim, First Eagle, Voya_
 
 ## 🎯 AM / ER / credit internships — open now (7)
 
@@ -119,31 +119,31 @@ _Updated 2026-11-25 21:57 UTC · watching 85 sources · ⚠️ 50 failing: Morga
 |---|---|---|---|
 | Goldman Sachs | goldman | ✅ | 0 |
 | JPMorgan | oracle | ✅ | 3 |
-| Morgan Stanley | workday | ⚠️ failing (4 runs): HTTP 429: Workday is refusing requests from this server right now | 5 |
+| Morgan Stanley | workday | ⚠️ failing (5 runs): HTTP 429: Workday is refusing requests from this server right now | 5 |
 | Bank of America | oleeo | ✅ | 1 |
-| Citi | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Wells Fargo | workday | ⚠️ failing (4 runs): HTTP 429: Workday is refusing requests from this server right now | 1 |
-| Barclays | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Deutsche Bank | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Citi | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Wells Fargo | workday | ⚠️ failing (5 runs): HTTP 429: Workday is refusing requests from this server right now | 1 |
+| Barclays | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Deutsche Bank | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
 | BNY | oracle | ✅ | 0 |
-| State Street | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 1 |
-| Northern Trust | workday | ⚠️ failing (4 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| RBC | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 6 |
-| BMO | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| TD | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 1 |
-| Mizuho | workday | ⚠️ failing (4 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| State Street | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 1 |
+| Northern Trust | workday | ⚠️ failing (5 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| RBC | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 6 |
+| BMO | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| TD | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 1 |
+| Mizuho | workday | ⚠️ failing (5 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
 | Nomura | oleeo | ✅ | 1 |
 | Jefferies | oleeo | ✅ | 11 |
 | Evercore | oleeo | ✅ | 0 |
 | Lazard | oracle | ✅ | 14 |
 | William Blair | greenhouse | ✅ | 0 |
-| Baird | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 1 |
-| Raymond James | workday | ⚠️ failing (4 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Baird | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 1 |
+| Raymond James | workday | ⚠️ failing (5 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
 | Stifel / KBW | icims | ✅ | 2 |
-| Truist | workday | ⚠️ failing (4 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Morningstar | workday | ⚠️ failing (4 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Piper Sandler | workday | ⚠️ failing (22 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Northland Capital Markets | workday | ⚠️ failing (22 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Truist | workday | ⚠️ failing (5 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Morningstar | workday | ⚠️ failing (5 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Piper Sandler | workday | ⚠️ failing (23 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Northland Capital Markets | workday | ⚠️ failing (23 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
 | Citizens JMP | oracle | ✅ | 0 |
 | B. Riley | smartrecruiters | ✅ | 0 |
 | Needham | oleeo | ✅ | 0 |
@@ -157,51 +157,51 @@ _Updated 2026-11-25 21:57 UTC · watching 85 sources · ⚠️ 50 failing: Morga
 | H.C. Wainwright | page | ✅ | 0 |
 | Ladenburg Thalmann | page | ✅ | 0 |
 | Oppenheimer | page | ✅ | 0 |
-| BlackRock | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Vanguard | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 13 |
-| Fidelity | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Capital Group | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| T. Rowe Price | workday | ⚠️ failing (26 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Wellington | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| PIMCO | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Invesco | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 1 |
+| BlackRock | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Vanguard | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 13 |
+| Fidelity | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Capital Group | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| T. Rowe Price | workday | ⚠️ failing (27 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Wellington | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| PIMCO | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Invesco | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 1 |
 | Franklin Templeton | phenom | ✅ | 0 |
-| AllianceBernstein | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Neuberger Berman | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Nuveen / TIAA | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 1 |
-| American Century | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 1 |
-| Dodge & Cox | workday | ⚠️ failing (28 runs): HTTP 429: Workday is refusing requests from this server right now | 1 |
+| AllianceBernstein | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Neuberger Berman | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Nuveen / TIAA | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 1 |
+| American Century | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 1 |
+| Dodge & Cox | workday | ⚠️ failing (29 runs): HTTP 429: Workday is refusing requests from this server right now | 1 |
 | Artisan Partners | greenhouse | ✅ | 0 |
 | Harris / Oakmark | greenhouse | ✅ | 0 |
 | AQR | greenhouse | ✅ | 0 |
 | Point72 | greenhouse | ✅ | 7 |
-| Millennium | eightfold | ⚠️ failing (1 runs): ReadTimeout: HTTPSConnectionPool(host='mlp.eightfold.ai', port=443): Read timed  | 0 |
+| Millennium | eightfold | ✅ | 0 |
 | Schonfeld | greenhouse | ✅ | 0 |
-| Blackstone | workday | ⚠️ failing (26 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Blackstone (campus) | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Apollo | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Carlyle | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Bain Capital | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Blackstone | workday | ⚠️ failing (27 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Blackstone (campus) | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Apollo | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Carlyle | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Bain Capital | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
 | TPG / Angelo Gordon | greenhouse | ✅ | 1 |
-| Brookfield | workday | ⚠️ failing (26 runs): HTTP 429: Workday is refusing requests from this server right now | 2 |
-| Hamilton Lane | workday | ⚠️ failing (28 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Ares | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Blue Owl | workday | ⚠️ failing (24 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Oaktree | workday | ⚠️ failing (26 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Sixth Street | workday | ⚠️ failing (24 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Brookfield | workday | ⚠️ failing (27 runs): HTTP 429: Workday is refusing requests from this server right now | 2 |
+| Hamilton Lane | workday | ⚠️ failing (29 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Ares | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Blue Owl | workday | ⚠️ failing (25 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Oaktree | workday | ⚠️ failing (27 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Sixth Street | workday | ⚠️ failing (25 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
 | HPS | greenhouse | ✅ | 0 |
 | OHA (Oak Hill Advisors) | greenhouse | ✅ | 1 |
-| Antares | workday | ⚠️ failing (28 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Fortress | workday | ⚠️ failing (24 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Cerberus | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Antares | workday | ⚠️ failing (29 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Fortress | workday | ⚠️ failing (25 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Cerberus | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
 | Audax (Private Debt) | greenhouse | ✅ | 0 |
 | Marathon Asset Management | icims | ✅ | 0 |
 | TCW | icims | ✅ | 0 |
-| Barings | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| PGIM | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Guggenheim | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| First Eagle | workday | ⚠️ failing (23 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
-| Voya | workday | ⚠️ failing (31 runs): HTTP 429: Workday is refusing requests from this server right now | 1 |
+| Barings | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| PGIM | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Guggenheim | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| First Eagle | workday | ⚠️ failing (24 runs): HTTP 429: Workday is refusing requests from this server right now | 0 |
+| Voya | workday | ⚠️ failing (32 runs): HTTP 429: Workday is refusing requests from this server right now | 1 |
 
 ## Check by hand (no public feed)
 
